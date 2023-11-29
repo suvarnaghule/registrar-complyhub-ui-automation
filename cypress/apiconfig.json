@@ -1,0 +1,7 @@
+{
+   "baseUrl": "https://dev-registrarcorp.myfda.com/",
+    "endpoints": {
+      "products": "/products",
+      "login": "/auth/login"
+    }
+  }

@@ -1,0 +1,304 @@
+[2023-09-12T14:56:46.012Z] Launched Application-->Login Test
+[2023-09-12T14:56:49.345Z] Entered User Details-->Login Test
+[2023-09-12T14:56:52.727Z] Validated success Login Msg-->Login Test
+[2023-09-12T14:56:53.593Z] Launched Application-->SignUp Test
+[2023-09-12T14:56:54.870Z] Entered User details-->SignUp Test
+[2023-09-12T14:56:55.312Z] Verified User SignUp-->SignUp Test
+[2023-09-12T14:56:57.246Z] Launched Application-->SignUp Test
+[2023-09-12T14:56:59.471Z] Launched Application-->SignUp Test
+[2023-09-12T14:57:00.865Z] Launched Application-->Login Test
+[2023-09-12T14:57:04.078Z] Entered User Details-->Login Test
+[2023-09-12T14:57:06.986Z] Validated success Login Msg-->Login Test
+[2023-09-12T14:57:10.550Z] Launched Application-->Login Test
+[2023-09-12T14:57:13.777Z] Entered User Details-->Login Test
+[2023-09-12T14:57:16.674Z] Validated success Login Msg-->Login Test
+[2023-09-12T14:57:27.856Z] Product Added to Cart and Placed Order
+[2023-09-12T14:57:31.346Z] User detaile entered & Clicked On Purchased
+[2023-09-12T14:57:31.423Z] Order Id :Id: 9851315Amount: 360 USDCard Number: 8173239123Name: JackSonDate: 12/8/2023
+[2023-09-12T14:57:35.026Z] Validated Order & Logout
+[2023-09-12T15:57:46.084Z] Launched Application-->Login Test
+[2023-09-12T15:57:49.374Z] Entered User Details-->Login Test
+[2023-09-12T15:57:54.359Z] Validated success Login Msg-->Login Test
+[2023-09-12T15:57:56.639Z] Launched Application-->SignUp Test
+[2023-09-12T15:57:58.064Z] Entered User details-->SignUp Test
+[2023-09-12T15:57:58.222Z] Verified User SignUp-->SignUp Test
+[2023-09-12T15:57:59.790Z] Launched Application-->SignUp Test
+[2023-09-12T15:58:01.373Z] Verify User Exist message
+[2023-09-12T15:58:02.298Z] Launched Application-->SignUp Test
+[2023-09-12T15:58:02.850Z] Verify Invalid Data message
+[2023-09-12T15:58:03.548Z] Launched Application-->Login Test
+[2023-09-12T15:58:06.712Z] Entered User Details-->Login Test
+[2023-09-12T15:58:11.690Z] Validated success Login Msg-->Login Test
+[2023-09-12T15:58:15.314Z] Launched Application-->Login Test
+[2023-09-12T15:58:18.494Z] Entered User Details-->Login Test
+[2023-09-12T15:58:24.053Z] Validated success Login Msg-->Login Test
+[2023-09-12T16:33:10.264Z] Launched Application-->Login Test
+[2023-09-12T16:33:13.615Z] Entered User Details-->Login Test
+[2023-09-12T16:33:16.231Z] Validated success Login Msg-->Login Test
+[2023-09-12T16:33:16.737Z] Launched Application-->SignUp Test
+[2023-09-12T16:33:18.332Z] Entered User details-->SignUp Test
+[2023-09-12T16:33:18.457Z] Verified User SignUp-->SignUp Test
+[2023-09-12T16:33:19.760Z] Launched Application-->SignUp Test
+[2023-09-12T16:33:21.058Z] Verify User Exist message
+[2023-09-12T16:33:22.526Z] Launched Application-->SignUp Test
+[2023-09-12T16:33:23.096Z] Verify Invalid Data message
+[2023-09-12T16:33:23.679Z] Launched Application-->Login Test
+[2023-09-12T16:33:26.897Z] Entered User Details-->Login Test
+[2023-09-12T16:33:29.744Z] Validated success Login Msg-->Login Test
+[2023-09-12T16:33:33.170Z] Launched Application-->Login Test
+[2023-09-12T16:33:36.331Z] Entered User Details-->Login Test
+[2023-09-12T16:33:38.799Z] Validated success Login Msg-->Login Test
+[2023-09-12T16:33:49.711Z] Product Added to Cart and Placed Order
+[2023-09-12T16:33:53.087Z] User detaile entered & Clicked On Purchased
+[2023-09-12T16:33:53.140Z] Order Id :Id: 6749302Amount: 720 USDCard Number: 8173239123Name: JackSonDate: 12/8/2023
+[2023-09-12T16:33:56.440Z] Validated Order & Logout
+[2023-09-12T17:04:04.259Z] Launched Application-->Login Test
+[2023-09-12T17:04:07.672Z] Entered User Details-->Login Test
+[2023-09-12T17:04:11.034Z] Validated success Login Msg-->Login Test
+[2023-09-12T17:04:12.696Z] Launched Application-->SignUp Test
+[2023-09-12T17:04:14.609Z] Entered User details-->SignUp Test
+[2023-09-12T17:04:14.890Z] Verified User SignUp-->SignUp Test
+[2023-09-12T17:04:16.416Z] Launched Application-->SignUp Test
+[2023-09-12T17:04:18.215Z] Verify User Exist message
+[2023-09-12T17:04:19.075Z] Launched Application-->SignUp Test
+[2023-09-12T17:04:19.743Z] Verify Invalid Data message
+[2023-09-12T17:04:20.548Z] Launched Application-->Login Test
+[2023-09-12T17:04:24.062Z] Entered User Details-->Login Test
+[2023-09-12T17:04:28.185Z] Validated success Login Msg-->Login Test
+[2023-09-12T17:04:30.772Z] Launched Application-->Login Test
+[2023-09-12T17:04:34.463Z] Entered User Details-->Login Test
+[2023-09-12T17:04:39.112Z] Validated success Login Msg-->Login Test
+[2023-09-12T17:04:51.100Z] Product Added to Cart and Placed Order
+[2023-09-12T17:04:55.271Z] User detaile entered & Clicked On Purchased
+[2023-09-12T17:04:55.323Z] Order Id :Id: 2738539Amount: 360 USDCard Number: 8173239123Name: JackSonDate: 12/8/2023
+[2023-09-12T17:04:58.671Z] Validated Order & Logout
+[2023-09-14T14:45:08.202Z] Launched Application-->Login Test
+[2023-09-14T14:45:11.777Z] Entered User Details-->Login Test
+[2023-09-14T14:45:14.741Z] Validated success Login Msg-->Login Test
+[2023-09-14T14:45:25.795Z] Product Added to Cart and Placed Order
+[2023-09-14T14:45:28.781Z] User detaile entered & Clicked On Purchased
+[2023-09-14T14:45:28.827Z] Order Id :Id: 5143713Amount: 360 USDCard Number: 8173239123Name: JackSonDate: 14/8/2023
+[2023-09-14T14:45:31.353Z] Validated Order & Logout
+[2023-09-14T14:45:59.796Z] Launched Application-->Login Test
+[2023-09-14T14:46:04.910Z] Entered User Details-->Login Test
+[2023-09-14T14:46:07.772Z] Validated success Login Msg-->Login Test
+[2023-09-14T14:46:30.746Z] Launched Application-->Login Test
+[2023-09-14T14:46:34.669Z] Entered User Details-->Login Test
+[2023-09-14T14:46:39.568Z] Validated success Login Msg-->Login Test
+[2023-09-14T14:47:06.135Z] Launched Application-->SignUp Test
+[2023-09-14T14:47:07.567Z] Entered User details-->SignUp Test
+[2023-09-14T14:47:08.566Z] Verified User SignUp-->SignUp Test
+[2023-09-14T14:47:09.941Z] Launched Application-->SignUp Test
+[2023-09-14T14:47:11.970Z] Verify User Exist message
+[2023-09-14T14:47:13.669Z] Launched Application-->SignUp Test
+[2023-09-14T14:47:14.855Z] Verify Invalid Data message
+[2023-09-14T14:50:35.287Z] Launched Application-->Login Test
+[2023-09-14T14:50:39.519Z] Entered User Details-->Login Test
+[2023-09-14T14:50:42.452Z] Validated success Login Msg-->Login Test
+[2023-09-14T14:50:44.686Z] Launched Application-->SignUp Test
+[2023-09-14T14:50:46.129Z] Entered User details-->SignUp Test
+[2023-09-14T14:50:46.337Z] Verified User SignUp-->SignUp Test
+[2023-09-14T14:50:48.335Z] Launched Application-->SignUp Test
+[2023-09-14T14:50:49.825Z] Verify User Exist message
+[2023-09-14T14:50:50.753Z] Launched Application-->SignUp Test
+[2023-09-14T14:50:52.559Z] Verify Invalid Data message
+[2023-09-14T14:50:53.596Z] Launched Application-->Login Test
+[2023-09-14T14:50:57.562Z] Entered User Details-->Login Test
+[2023-09-14T14:51:02.507Z] Validated success Login Msg-->Login Test
+[2023-09-14T14:51:04.933Z] Launched Application-->Login Test
+[2023-09-14T14:51:09.664Z] Entered User Details-->Login Test
+[2023-09-14T14:51:13.764Z] Validated success Login Msg-->Login Test
+[2023-09-14T14:51:24.004Z] Product Added to Cart and Placed Order
+[2023-09-14T14:51:28.152Z] User detaile entered & Clicked On Purchased
+[2023-09-14T14:51:28.181Z] Order Id :Id: 7914520Amount: 360 USDCard Number: 8173239123Name: JackSonDate: 14/8/2023
+[2023-09-14T14:51:31.360Z] Validated Order & Logout
+[2023-09-14T14:59:08.440Z] Launched Application-->Login Test
+[2023-09-14T14:59:13.969Z] Entered User Details-->Login Test
+[2023-09-14T14:59:16.871Z] Validated success Login Msg-->Login Test
+[2023-09-14T14:59:27.403Z] Product Added to Cart and Placed Order
+[2023-09-14T14:59:30.591Z] User detaile entered & Clicked On Purchased
+[2023-09-14T14:59:30.636Z] Order Id :Id: 5380694Amount: 360 USDCard Number: 8173239123Name: JackSonDate: 14/8/2023
+[2023-09-14T14:59:33.763Z] Validated Order & Logout
+[2023-09-14T15:00:00.777Z] Launched Application-->Login Test
+[2023-09-14T15:00:05.284Z] Entered User Details-->Login Test
+[2023-09-14T15:00:08.678Z] Validated success Login Msg-->Login Test
+[2023-09-14T15:00:34.517Z] Launched Application-->Login Test
+[2023-09-14T15:00:37.843Z] Entered User Details-->Login Test
+[2023-09-14T15:00:41.990Z] Validated success Login Msg-->Login Test
+[2023-09-14T15:01:05.956Z] Launched Application-->SignUp Test
+[2023-09-14T15:01:07.936Z] Entered User details-->SignUp Test
+[2023-09-14T15:01:08.464Z] Verified User SignUp-->SignUp Test
+[2023-09-14T15:01:09.486Z] Launched Application-->SignUp Test
+[2023-09-14T15:01:11.525Z] Verify User Exist message
+[2023-09-14T15:01:12.547Z] Launched Application-->SignUp Test
+[2023-09-14T15:01:13.228Z] Verify Invalid Data message
+[2023-09-14T15:03:43.781Z] Launched Application-->Login Test
+[2023-09-14T15:03:47.175Z] Entered User Details-->Login Test
+[2023-09-14T15:03:50.227Z] Validated success Login Msg-->Login Test
+[2023-09-14T15:03:52.278Z] Launched Application-->SignUp Test
+[2023-09-14T15:03:53.775Z] Entered User details-->SignUp Test
+[2023-09-14T15:03:53.951Z] Verified User SignUp-->SignUp Test
+[2023-09-14T15:03:55.849Z] Launched Application-->SignUp Test
+[2023-09-14T15:03:57.714Z] Verify User Exist message
+[2023-09-14T15:03:58.578Z] Launched Application-->SignUp Test
+[2023-09-14T15:03:59.231Z] Verify Invalid Data message
+[2023-09-14T15:04:00.100Z] Launched Application-->Login Test
+[2023-09-14T15:04:03.533Z] Entered User Details-->Login Test
+[2023-09-14T15:04:07.469Z] Validated success Login Msg-->Login Test
+[2023-09-14T15:04:11.046Z] Launched Application-->Login Test
+[2023-09-14T15:04:15.465Z] Entered User Details-->Login Test
+[2023-09-14T15:04:18.804Z] Validated success Login Msg-->Login Test
+[2023-09-14T15:04:30.292Z] Product Added to Cart and Placed Order
+[2023-09-14T15:04:33.512Z] User detaile entered & Clicked On Purchased
+[2023-09-14T15:04:33.547Z] Order Id :Id: 110135Amount: 360 USDCard Number: 8173239123Name: JackSonDate: 14/8/2023
+[2023-09-14T15:04:35.856Z] Validated Order & Logout
+[2023-11-27T06:59:12.570Z] Launched Application-->Login Test
+[2023-11-27T06:59:15.615Z] Entered User Details-->Login Test
+[2023-11-27T06:59:17.968Z] Validated success Login Msg-->Login Test
+[2023-11-27T07:02:27.448Z] Launched Application-->Login Test
+[2023-11-27T07:11:27.399Z] Launched Application-->Login Test
+[2023-11-27T07:11:30.336Z] Entered User Details-->Login Test
+[2023-11-27T07:11:32.586Z] Validated success Login Msg-->Login Test
+[2023-11-27T07:16:48.144Z] Launched Application-->Login Test
+[2023-11-27T07:16:51.231Z] Entered User Details-->Login Test
+[2023-11-27T07:16:53.359Z] Validated success Login Msg-->Login Test
+[2023-11-27T07:18:23.638Z] Launched Application-->Login Test
+[2023-11-27T07:18:26.750Z] Entered User Details-->Login Test
+[2023-11-27T07:18:28.992Z] Validated success Login Msg-->Login Test
+[2023-11-27T09:54:28.738Z] Launched Application-->Login Test
+[2023-11-27T09:55:15.740Z] Launched Application-->Login Test
+[2023-11-27T09:56:10.622Z] Launched Application-->Login Test
+[2023-11-27T09:56:30.075Z] Launched Application-->Login Test
+[2023-11-27T09:56:50.504Z] Launched Application-->Login Test
+[2023-11-27T09:57:19.920Z] Launched Application-->Login Test
+[2023-11-27T09:58:02.583Z] Launched Application-->Login Test
+[2023-11-27T09:59:59.552Z] Launched Application-->Login Test
+[2023-11-27T10:00:37.240Z] Launched Application-->Login Test
+[2023-11-27T10:16:15.133Z] Launched Application-->Login Test
+[2023-11-27T10:28:14.745Z] Launched Application-->Login Test
+[2023-11-27T10:30:01.092Z] Launched Application-->Login Test
+[2023-11-27T10:30:04.193Z] Entered User Details-->Login Test
+[2023-11-27T10:31:28.051Z] Launched Application-->Login Test
+[2023-11-27T10:31:30.955Z] Entered User Details-->Login Test
+[2023-11-27T10:31:31.095Z] Validated success Login Msg-->Login Test
+[2023-11-27T10:33:42.923Z] Launched Application-->Login Test
+[2023-11-27T10:33:45.773Z] Entered User Details-->Login Test
+[2023-11-27T10:33:45.902Z] Validated success Login Msg-->Login Test
+[2023-11-27T10:50:58.980Z] Launched Application-->Login Test
+[2023-11-27T10:53:45.455Z] Launched Application-->Login Test
+[2023-11-27T10:53:48.512Z] Entered User Details-->Login Test
+[2023-11-27T10:55:10.015Z] Launched Application-->Login Test
+[2023-11-27T10:55:13.005Z] Entered User Details-->Login Test
+[2023-11-27T10:57:26.846Z] Launched Application-->Login Test
+[2023-11-27T10:57:29.876Z] Entered User Details-->Login Test
+[2023-11-27T10:58:09.386Z] Launched Application-->Login Test
+[2023-11-27T10:58:12.392Z] Entered User Details-->Login Test
+[2023-11-27T10:58:20.146Z] Validated success Login Msg-->Login Test
+[2023-11-27T11:03:33.962Z] Launched Application-->Login Test
+[2023-11-27T11:03:36.892Z] Entered User Details-->Login Test
+[2023-11-27T11:25:02.973Z] Launched Application-->Login Test
+[2023-11-27T11:25:06.142Z] Entered User Details-->Login Test
+[2023-11-27T11:25:18.382Z] Validated success Login Msg-->Login Test
+[2023-11-27T12:33:20.204Z] Launched Application-->Login Test
+[2023-11-27T12:33:23.071Z] Entered User Details-->Login Test
+[2023-11-28T06:12:33.161Z] Launched Application-->Login Test
+[2023-11-28T06:12:59.926Z] Validated success Login Msg-->Login Test
+[2023-11-28T09:03:10.626Z] Launched Application-->Login Test
+[2023-11-28T09:04:14.616Z] Launched Application-->Login Test
+[2023-11-28T09:04:39.329Z] Validated success Login Msg-->Login Test
+[2023-11-28T09:10:30.257Z] Launched Application-->Login Test
+[2023-11-28T09:10:55.638Z] Validated success Login Msg-->Login Test
+[2023-11-28T09:11:19.248Z] Launched Application-->Login Test
+[2023-11-28T09:15:02.643Z] Launched Application-->Login Test
+[2023-11-28T09:15:24.799Z] Validated success Login Msg-->Login Test
+[2023-11-28T09:17:25.969Z] Launched Application-->Login Test
+[2023-11-28T09:17:49.337Z] Launched Application-->Login Test
+[2023-11-28T09:18:01.396Z] Validated success Login Msg-->Login Test
+[2023-11-28T09:19:05.815Z] Launched Application-->Login Test
+[2023-11-28T09:19:17.439Z] Validated success Login Msg-->Login Test
+[2023-11-28T09:54:40.219Z] Launched Application-->Login Test
+[2023-11-28T09:55:02.682Z] Validated success Login Msg-->Login Test
+[2023-11-28T09:58:32.449Z] Launched Application-->Login Test
+[2023-11-28T09:58:44.778Z] Validated success Login Msg-->Login Test
+[2023-11-28T10:07:02.669Z] Launched Application-->Login Test
+[2023-11-28T10:07:20.980Z] Validated success Login Msg-->Login Test
+[2023-11-28T10:22:48.403Z] Launched Application-->Login Test
+[2023-11-28T10:23:15.365Z] Launched Application-->Login Test
+[2023-11-28T10:23:41.196Z] Validated success Login Msg-->Login Test
+[2023-11-28T10:27:26.443Z] Launched Application-->Login Test
+[2023-11-28T10:28:53.098Z] Launched Application-->Login Test
+[2023-11-28T10:29:13.200Z] Validated success Login Msg-->Login Test
+[2023-11-28T10:39:28.956Z] Launched Application-->Login Test
+[2023-11-28T10:39:48.045Z] Validated success Login Msg-->Login Test
+[2023-11-28T10:39:57.522Z] Redirected to facility360 tab
+[2023-11-28T10:39:57.985Z] Facility selectedCasearia Monti Trentini S.p.A. - Grigno
+[2023-11-28T11:00:23.072Z] Launched Application-->Login Test
+[2023-11-28T11:00:33.761Z] Validated success Login Msg-->Login Test
+[2023-11-28T11:00:35.683Z] Redirected to facility360 tab
+[2023-11-28T11:00:37.948Z] Facility selectedCasearia Monti Trentini S.p.A. - Grigno
+[2023-11-28T11:06:21.493Z] Launched Application-->Login Test
+[2023-11-28T11:15:17.388Z] Launched Application-->Login Test
+[2023-11-28T11:15:22.401Z] Launched Application-->Login Test
+[2023-11-28T11:15:39.730Z] Validated success Login Msg-->Login Test
+[2023-11-28T11:15:42.460Z] Redirected to facility360 tab
+[2023-11-28T11:19:44.281Z] Launched Application-->Login Test
+[2023-11-28T11:19:55.303Z] Validated success Login Msg-->Login Test
+[2023-11-28T11:19:58.029Z] Redirected to facility360 tab
+[2023-11-28T11:20:00.385Z] Facility selectedCasearia Monti Trentini S.p.A. - Grigno
+[2023-11-28T11:23:58.552Z] Launched Application-->Login Test
+[2023-11-28T11:24:10.344Z] Validated success Login Msg-->Login Test
+[2023-11-28T11:24:12.871Z] Redirected to facility360 tab
+[2023-11-28T11:24:15.405Z] Facility selectedCasearia Monti Trentini S.p.A. - Grigno
+[2023-11-28T11:35:47.976Z] Launched Application-->Login Test
+[2023-11-28T11:36:05.455Z] Launched Application-->Login Test
+[2023-11-28T11:36:20.119Z] Validated success Login Msg-->Login Test
+[2023-11-28T11:36:27.301Z] Redirected to facility360 tab
+[2023-11-28T11:36:29.952Z] Facility selectedCasearia Monti Trentini S.p.A. - Grigno
+[2023-11-28T11:37:13.179Z] Launched Application-->Login Test
+[2023-11-28T11:37:22.151Z] Validated success Login Msg-->Login Test
+[2023-11-28T11:37:26.799Z] Redirected to facility360 tab
+[2023-11-28T11:37:28.846Z] Facility selectedCasearia Monti Trentini S.p.A. - Grigno
+[2023-11-29T05:59:37.145Z] Launched Application-->Login Test
+[2023-11-29T05:59:54.201Z] Validated success Login Msg-->Login Test
+[2023-11-29T05:59:57.786Z] Redirected to facility360 tab
+[2023-11-29T06:00:00.593Z] Facility selectedCasearia Monti Trentini S.p.A. - Grigno
+[2023-11-29T06:01:26.954Z] Launched Application-->Login Test
+[2023-11-29T06:01:42.913Z] Validated success Login Msg-->Login Test
+[2023-11-29T06:01:45.743Z] Redirected to facility360 tab
+[2023-11-29T06:01:48.777Z] Facility selectedCasearia Monti Trentini S.p.A. - Grigno
+[2023-11-29T06:02:39.596Z] Launched Application-->Login Test
+[2023-11-29T06:02:49.260Z] Validated success Login Msg-->Login Test
+[2023-11-29T06:02:51.482Z] Redirected to facility360 tab
+[2023-11-29T06:02:53.506Z] Facility selectedCasearia Monti Trentini S.p.A. - Grigno
+[2023-11-29T06:10:46.087Z] Launched Application-->Login Test
+[2023-11-29T06:11:05.222Z] Validated success Login Msg-->Login Test
+[2023-11-29T06:11:09.385Z] Redirected to facility360 tab
+[2023-11-29T06:11:11.549Z] Facility selectedCasearia Monti Trentini S.p.A. - Grigno
+[2023-11-29T06:13:23.854Z] Launched Application-->Login Test
+[2023-11-29T06:13:34.408Z] Validated success Login Msg-->Login Test
+[2023-11-29T06:13:36.864Z] Redirected to facility360 tab
+[2023-11-29T06:13:39.245Z] Facility selectedCasearia Monti Trentini S.p.A. - Grigno
+[2023-11-29T07:34:51.752Z] Launched Application-->Login Test
+[2023-11-29T07:35:05.168Z] Validated success Login Msg-->Login Test
+[2023-11-29T07:35:07.830Z] Redirected to facility360 tab
+[2023-11-29T07:35:10.690Z] Facility selectedCasearia Monti Trentini S.p.A. - Grigno
+[2023-11-29T08:49:24.863Z] Launched Application-->Login Test
+[2023-11-29T08:49:39.112Z] Validated success Login Msg-->Login Test
+[2023-11-29T08:49:42.430Z] Redirected to facility360 tab
+[2023-11-29T08:49:45.762Z] Facility selectedCasearia Monti Trentini S.p.A. - Grigno
+[2023-11-29T08:58:58.346Z] Launched Application-->Login Test
+[2023-11-29T08:59:18.152Z] Validated success Login Msg-->Login Test
+[2023-11-29T08:59:22.621Z] Redirected to facility360 tab
+[2023-11-29T08:59:23.912Z] Facility selectedCasearia Monti Trentini S.p.A. - Grigno
+[2023-11-29T09:03:52.601Z] Launched Application-->Login Test
+[2023-11-29T09:04:05.397Z] Validated success Login Msg-->Login Test
+[2023-11-29T09:04:12.534Z] Redirected to facility360 tab
+[2023-11-29T09:04:13.378Z] Facility selectedCasearia Monti Trentini S.p.A. - Grigno
+[2023-11-29T09:07:59.417Z] Launched Application-->Login Test
+[2023-11-29T09:08:14.490Z] Validated success Login Msg-->Login Test
+[2023-11-29T09:08:17.721Z] Redirected to facility360 tab
+[2023-11-29T09:08:19.749Z] Facility selectedCasearia Monti Trentini S.p.A. - Grigno
+[2023-11-29T09:10:25.126Z] Launched Application-->Login Test
+[2023-11-29T09:10:34.921Z] Validated success Login Msg-->Login Test
+[2023-11-29T09:10:38.032Z] Redirected to facility360 tab
+[2023-11-29T09:10:39.611Z] Facility selectedCasearia Monti Trentini S.p.A. - Grigno
