@@ -1,1 +1,1 @@
-# registrar-complyHub-ui-automation
+# registrar-complyhub-ui-automation
