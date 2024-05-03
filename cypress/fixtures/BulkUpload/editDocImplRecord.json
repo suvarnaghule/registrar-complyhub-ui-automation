@@ -1,0 +1,21 @@
+{   
+    "Input":{
+    "Type":"3rd Party Audit Certificate",
+    "Name":"Doc Impl Edit Document",
+    "Desc":"This is to test Edit document flow for Importer document implementation screen",
+    "Cat":"FSVP",
+    "ProductCategory":"BANANA (SUBTROPICAL AND TROPICAL FRUIT)",
+    "ProductCatNumber":"6789",
+    "Product":"Banana wafers",
+    "Vi":10,
+    "Vp":{
+            "docVpText":"Month",
+            "docVpValue":"Month"
+    },
+    "Vf":"12/12/2023",
+    "Vt":"01/01/2024",
+    "SupplierName":"Family Food Ecuador, S.A. - Guayaquil",
+    "Comments":"UI automation edit record test comments"
+    }
+}    
+    
