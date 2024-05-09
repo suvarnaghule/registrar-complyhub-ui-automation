@@ -59,7 +59,7 @@ describe('Bulk Upload ( Document Implementation Screen', {
         bulkUploadObj.clickOnBackBtn()
         cy.fixture('./BulkUpload/editDocImplRecord').then((docInput) => {
             newDocObj.searchDoc(docInput.Input)
-            updateDocObj.validateImporterSupplierName(docInput.Input.SupplierName)
+            updateDocObj.validateImporterSupplierName(docInput.Input.SupplierName)       
         })
     })
 })   
