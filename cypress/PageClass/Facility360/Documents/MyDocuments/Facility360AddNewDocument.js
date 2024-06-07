@@ -3,11 +3,10 @@
 class NewDocument
 {
     facility360documentTab=".documents > .tab-link"
-    facility360MyDocumentsTab="div[class*='documents'][class*='tab'] ul[class='uk-tab'] a"                    //"div[class='uk-width-1-1 documents-smart-tabs'] a"
+    facility360MyDocumentsTab="div[class*='documents'][class*='tab'] ul[class='uk-tab'] a"                    
     facility360AddDocument=".new-doc-button"
-                
-    
-   facility360DocName="input[name='docName']"                   
+                  
+    facility360DocName="input[name='docName']"                   
     facility360DocDesc="textarea[class ='input-field doc-desc']"         
     facility360DocCat="select[name='docCat']"                            
                
@@ -32,9 +31,6 @@ class NewDocument
     facility360TableDocStatusCol="td:nth-child(6) p"
     facility360TableDocValidToCol="td:nth-child(7) p"
     facility360TableDocCheckbox="td:nth-child(1) input[type='checkbox']"
-
-    //facility360TableDocTypeColFilter="td:nth-child(3)"
-    //facility360TableDocCatColFilter="td:nth-child(4) p"
 
     facility360TableDocName="//table[@class='uk-table docs']//td//p[@class='doc-name']"  
     facility360TableFirstDocName="table[class='uk-table docs'] tr:first-child td p[class='doc-name']"                                                                     //"table[class='uk-table docs'] tr:first-child td:nth-child(2) p" 
@@ -76,7 +72,6 @@ class NewDocument
         cy.contains("Select Document Type").click()
         let facility360Doctype = "//li[@aria-label='"+docInput.Cat+"']//li[contains(text(),'"+docInput.Type+"')]"
         cy.xpath(facility360Doctype).click() 
-       // cy.get("form[@id='newExpDocForm'] "+this.facility360DocType).select(docInput.Type,{force:true}).should('include.text',docInput.Type)
         cy.get(this.facility360DocName).clear().type(docInput.Name)
         cy.wait(200)
         cy.get(this.facility360DocDesc).clear().type(docInput.Desc)
@@ -88,11 +83,7 @@ class NewDocument
         cy.get(this.facility360DocVp).select(docInput.Vp.docVpText).should('have.value',docInput.Vp.docVpValue)
         cy.get(this.facility360DocNextBtn).click()
         cy.wait(800)
-        cy.get(this.facility360DocAddComments).type(docInput.Comments) 
-
-        //cy.get(this.facility360DocVf).type(docInput.Vf)
-       // cy.get(this.facility360DocVt).type(docInput.Vt)      
-               
+        cy.get(this.facility360DocAddComments).type(docInput.Comments)              
     } 
     
     clickOnSkipForNowBtn()
@@ -103,7 +94,6 @@ class NewDocument
     clickOnSaveDocBtn()
     {
         cy.get(this.facility360DocSubmitBtn).click()
-       // cy.wait(20000)
     } 
     searchDoc(docInput,role)
     {
@@ -118,7 +108,6 @@ class NewDocument
         cy.get(this.facility360TableFirstDocProdName).should('have.text', docInput.Product)
         if(role == 'Importer')
         cy.get(this.importerTableFirstDocSupplierName).should('have.text',docInput.Supplier)
-
     }
     
     DownloadDoc()
@@ -136,8 +125,7 @@ class NewDocument
                         {
                             cy.log(data)
                         }
-                    })
-                    //.should('contain','CHEESE, ASIAGO, FRESH, MEDIUM SOFT AND OLD')            
+                    })           
             })
         })
     }
@@ -152,13 +140,6 @@ class NewDocument
                 })          
                 cy.get(this.facility360TableDocTypeCol).should('have.attr','class').and('equal','doc-col doc-type')
                 cy.get(this.facility360TableDocCatCol).should('have.attr','class').and('equal','doc-col doc-category')
-              /*  cy.get(this.facility360TableDocProductCol).then(($ele)=>{
-                    if($ele.hasChildNodes())
-                    {
-                        cy.get(this.facility360TableDocProductCol+" p").should('have.attr','class').and('equal','doc-col doc-product')
-                    }
-                   
-                }) */
                 cy.get(this.facility360TableDocStatusCol).should('have.attr','class').and('contain','doc-col doc-status')
                 cy.get(this.facility360TableDocValidToCol).should('have.attr','class').and('contain','doc-col doc-valid-to')              
             })
@@ -182,7 +163,6 @@ class NewDocument
             })
         })
         cy.get(this.facility360ExpiredDocLabelCount).then(($cnt)=>{
-            //cy.log($cnt.text())
             cy.get(this.facility360MyDocTableCount).invoke('text').should('contain',$cnt.text())
 
         })
@@ -212,6 +192,5 @@ class NewDocument
             }
         })
     }
-
 }
 export default NewDocument;

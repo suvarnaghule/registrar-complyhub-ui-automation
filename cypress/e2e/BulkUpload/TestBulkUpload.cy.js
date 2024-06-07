@@ -2,6 +2,21 @@ import BulkUpload from "../../PageClass/BulkUpload/BulkUpload"
 import EditDocImplRecord from "../../PageClass/BulkUpload/EditDocImplRecord";
 import importerUpdateDocument from "../../PageClass/ImporterDocuments/MyDocuments/importerUpdateDocument";
 import NewDocument from "../../PageClass/Facility360/Documents/MyDocuments/Facility360AddNewDocument";
+import importerMyDocuments from "../../PageClass/ImporterDocuments/MyDocuments/importerMyDocuments";
+
+after('Delete File',() =>{
+    const myDocObj = new importerMyDocuments()
+    const newDocObj = new NewDocument()
+    cy.fixture('./BulkUpload/bulkUpload').then((data) => {
+        cy.loginMyFDA(data.UserName, data.UserPassword)
+        cy.visit('/documents').wait(2000)
+        cy.fixture('./BulkUpload/editDocImplRecord').then((docInput) => {
+            newDocObj.searchDoc(docInput.Input)
+            cy.wait(1000)
+            myDocObj.deleteDocument(docInput.Input.Name)     
+        })      
+    })    
+})
 
 describe('Bulk Upload ( Document Implementation Screen', {
     viewportWidth: 1280,
@@ -11,11 +26,11 @@ describe('Bulk Upload ( Document Implementation Screen', {
     beforeEach(() => {
         cy.fixture('./BulkUpload/bulkUpload').then((data) => {
             docData = data
-            cy.loginMyFDA(data.UserName, data.UserPassword)
+            cy.loginMyFDA()
             cy.visit('/documents')
         })
     });
-    it('Navigate to Document Implementation Screen & Upload a Single File', () => {
+    it('Navigate to Document Implementation Screen & Upload a Single File', {tags : '@smokeTag'},() => {
         const bulkUploadObj = new BulkUpload()
         bulkUploadObj.clickOnBulkDocumentsUpload()
         bulkUploadObj.clickOnSkipToDocumentImpl()
@@ -33,6 +48,8 @@ describe('Bulk Upload ( Document Implementation Screen', {
         bulkUploadObj.clickOnBulkDocumentsUpload()
         bulkUploadObj.clickOnSkipToDocumentImpl()
         cy.wait(3000)
+        bulkUploadObj.searchFile(docData.fileName)
+        cy.wait(2000)
         bulkUploadObj.clickOnEditBtnOfFirstRow()
         editRecordObj.verifyEditRecordPopUPIsOpened()
         cy.fixture('./BulkUpload/editDocImplRecord').then((docInput) => {

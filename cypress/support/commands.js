@@ -35,18 +35,17 @@ Cypress.on('uncaught:exception',(err,runnable)=>{
 })
 Cypress.Commands.add('logger', (filename, message) => {
     // Define the log file path based on the filename parameter
-    const logFilePath = `cypress/logs/${filename}.log`;
-  
+    const logFilePath = `cypress/logs/${filename}.log`; 
     // Create or append to the log file
     cy.writeFile(logFilePath, `[${new Date().toISOString()}] ${message}\n`, { flag: 'a+' });
   });
 
-Cypress.Commands.add('loginMyFDA', (username, password) => {
-    cy.session([username, password], () => {
+Cypress.Commands.add('loginMyFDA', () => {
+    cy.session([] ,() => {
         const loginObj = new Login()
         // cy.visit('/');
         cy.visit('https://monitor.dev.compliancemonitorapi.com')
-        loginObj.userLogin(username, password);
+        loginObj.userLogin(Cypress.env('UserName'), Cypress.env('UserPassword'));
         cy.wait(2000);
         loginObj.verifyLoginSuccess();
         cy.logger('application', "Validated success Login Msg-->Login Test");
