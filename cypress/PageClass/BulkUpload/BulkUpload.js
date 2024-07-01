@@ -53,7 +53,7 @@
             lastModified: Date.now()
           },{force:true})       
          cy.get(this.fileUploadBtn).click()
-         cy.get(this.dialogBox+" h3").should('contain.text','File Successfully Uploaded')
+         cy.get(this.dialogBox+" h3").should('contain.text','File Successfully added')
          cy.get(this.fileUploadedOkBtn).click()
     }
     clickOnExpandBtnOfFirstRow()
