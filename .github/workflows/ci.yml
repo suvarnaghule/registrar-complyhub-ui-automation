@@ -1,7 +1,7 @@
 name: End-to-end tests
 on: push
 jobs:
-  cypress-run:
+  cypress-run: 
     runs-on: ubuntu-22.04
     steps:
       - name: Checkout
@@ -33,6 +33,6 @@ jobs:
         if: always()
         with:
           name: cypress-allure-report               
-          path: ./allure-report
+          path: /home/runner/work/registrar-complyhub-ui-automation/registrar-complyhub-ui-automation/allure-report
           if-no-files-found: ignore # 'warn' or 'error' are also available, defaults to `warn`
       
