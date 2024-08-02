@@ -12,12 +12,13 @@ jobs:
         uses: cypress-io/github-action@v6
         with:
             browser: chrome
-      - name: generate report  
-        run: npm run test
-       
+            install-command: npm ci 
+      - name: install allure
+        run: npm install -g allure-commandline --save-dev && npm i -D @shelex/cypress-allure-plugin
+      - name: generate report 
+        run: npm run test       
        # with:
-       #   start: npm run browser:chrome 
-                       
+       #   command: npm run browser:chrome                        
         # after the test run completes store videos and any screenshots
       - uses: actions/upload-artifact@v4
         # add the line below to store screenshots only on failures
