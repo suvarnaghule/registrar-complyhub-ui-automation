@@ -10,6 +10,9 @@ jobs:
       # and run all Cypress tests
       - name: Cypress run
         uses: cypress-io/github-action@v6
+        with:
+          command: npm run browser:chrome
+                   npm run allure:report
         # after the test run completes store videos and any screenshots
       - uses: actions/upload-artifact@v4
         # add the line below to store screenshots only on failures
@@ -22,5 +25,8 @@ jobs:
         if: always()
         with:
           name: cypress-videos
+                Allure-Report
           path: cypress/videos
+                allure-report 
           if-no-files-found: ignore # 'warn' or 'error' are also available, defaults to `warn`
+      
