@@ -8,10 +8,13 @@ jobs:
         uses: actions/checkout@v4
       # Install npm dependencies, cache them correctly
       # and run all Cypress tests
-      - name: Cypress run
+      - name: Cypress.io
         uses: cypress-io/github-action@v6
-      - run: npm run browser:chrome
-      - run: npm run allure:report  
+        with:
+            browser: chrome
+      - name: generate report  
+        run: npm run test
+       
        # with:
        #   start: npm run browser:chrome 
                        
