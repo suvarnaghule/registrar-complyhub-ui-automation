@@ -19,16 +19,20 @@ jobs:
       # Run Cypress tests
       - run:
           name: Run Cypress Tests
-          command: npx cypress run
+          command: npx cypress run --reporter mochawesome --reporter-options reportDir=cypress/results,reportFilename=index.html
 
       # Store Cypress test videos as artifacts
       - store_artifacts:
-          path: /root/project/cypress/videos  # Path where Cypress stores videos
+          path: /root/project/cypress/results/videos  # Path where Cypress stores videos
           destination: cypress-videos  # The name that will be shown in CircleCI's Artifacts tab
 
       - store_artifacts:
-          path: /root/project/cypress/screenshots  
-          destination: cypress-screenshots    
+          path: /root/project/cypress/results/screenshots  
+          destination: cypress-screenshots 
+
+      - store_test_results:
+          path: /root/project/cypress/results  # Path where Cypress test results are stored
+          destination: cypress-test-results        
 
 workflows:
   version: 2
