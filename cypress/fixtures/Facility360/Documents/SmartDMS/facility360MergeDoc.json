@@ -1,0 +1,10 @@
+{
+    "UserName": "FancyFood",
+    "UserPassword": "FDANYC",
+    "facilityDDText": "Xiamen Kairun Co. Ltd. - Xiamen City",
+    "facilityDDValue":"1472426",  
+    "DocTypeFilter":"Document Type",
+    "DocTypeFilterValue":"gmp program",
+    "MergeDocCount":"2",
+    "BulkIgnoreCount":"3"
+}

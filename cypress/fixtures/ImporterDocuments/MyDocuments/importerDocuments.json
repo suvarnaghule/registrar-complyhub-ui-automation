@@ -1,0 +1,26 @@
+{
+"UserName": "FancyFood",
+"UserPassword": "FDANYC",
+"docInput":{
+    "Type":"Acidified Food - FCE Registration",
+    "Name":"ImporterAddDocument",
+    "Desc":"This is to test Add New Document flow for Importer",
+    "Cat":"Acidified Foods",
+    "ProductCategory":"BUTTER/BUTTER FLAVORED PREPARED DRY COOKIE MIX WITH MILK OR EGG",
+    "ProductCatNumber":"6475",
+    "Product":"Cookie",
+    "SupplierName":"Simsek Biscuits and Food Industry Co. - Karaman",
+    "Vi":6,
+    "Vp":{
+            "docVpText":"Month",
+            "docVpValue":"Month"
+    },
+    "uploadFile":{
+        "fileName":"facility360.json",
+        "mimeTyp":"application/json"
+    },
+    "docReqCount":"1"   
+},
+"docStatusLabel":"Valid",
+"tempDocDeleteCount":"2"
+}

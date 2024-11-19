@@ -1,0 +1,15 @@
+{
+    "UserName": "fdamonitor",
+    "UserPassword": "fda123",
+    "ProductCatFilter":"FDA Product Category ",
+    "ProductCatFilterValue":"cookie,biscuit,wafer dough, n.e.c.",
+    "DocCatFilter":"Document Category",
+    "DocCatFilterValue":"training",
+    "DocTypeFilter":"Document Type",
+    "DocTypeFilterValue":"gmp program",
+    "ProductFilter":"Product Code",
+    "ProductFilterValue":"02ddt02",
+    "SupplierFilter":"Supplier Name",
+    "SupplierFilterValue":"agro food & spices",
+    "BulkIgnoreDocCount":"4"
+}       

@@ -1,0 +1,15 @@
+{
+    "UserName":"FancyFood",
+    "UserPassword":"FDANYC",
+    "email":"automationcm24@guerrillamail.com",
+    "emailFreqData":{
+        "MonthlyReport":"month",
+        "RegiScore":"week",
+        "Audits":"none",
+        "Compliance":"custom",
+        "SupplierProfile":"day",
+        "NewShipments":"month",
+        "Documents":"day"
+    }
+   
+}

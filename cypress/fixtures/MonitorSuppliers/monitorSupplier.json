@@ -1,0 +1,47 @@
+{
+    "UserName":"FancyFood",
+    "UserPassword":"FDANYC",
+    "supplierName":"Agricola Casearia Lupara",
+    "supplier":"Agricola Santa Magdalena",
+    "supplierVendorId":"787878",
+    "supplierVendorIDLabel":"Vendor ID",
+    "supplierDUNSNo":"430826164",
+    "supplierDUNSLabel":"DUNS Number",
+    "supplierRegNo":"",
+    "supplierInfoLabel":"Primary Contact",
+    "primaryContactDetails":
+    {
+        "firstName":"RegistrarCorp",
+        "lastName":"ComplyHub",
+        "email":"automationcm24@guerrillamail.com"
+    },
+    "shareReportEmail":"automationcm24@guerrillamail.com",
+    "productFilterName":"GARLIC SAUCE",
+    "supplierByName":[
+        {
+            "supplierName": "Artisan"
+        },
+        {
+            "supplierName": "Avantio"
+        },
+        {
+            "supplierName": "Backshop"
+        }
+    ],
+    "facilityNameForUpdateRegiscore":[
+        {
+            "facilityName": "Bimbo S.A. de C.V."
+        }
+    ],
+    "recordNumberDetailsPaginationDropdown":[
+            {
+                "recordsPerPageDD": "100"
+            },
+            {
+                "recordsPerPageDD": "50"
+            },
+            {
+                "recordsPerPageDD": "20"
+            }
+    ]  
+}

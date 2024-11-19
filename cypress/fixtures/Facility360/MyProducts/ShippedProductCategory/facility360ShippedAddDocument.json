@@ -1,0 +1,10 @@
+{
+    "UserName": "FancyFood",
+    "UserPassword": "FDANYC",
+    "facilityDDText": "Casearia Monti Trentini S.p.A. - Grigno",
+    "facilityDDValue":"1742870",   
+    "searchProductCategory":"orange",
+    "searchProduct":"Automation Product",
+    "productCategory":["productCategory","cheese, reggiano"],
+    "documentName":"Acidified Food - SID"  
+}

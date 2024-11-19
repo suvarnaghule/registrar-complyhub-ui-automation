@@ -1,0 +1,11 @@
+{
+    "multipleFileUploadCount":"3",
+    "multipleFileInput":{
+        "fileName1":"facility360.json",
+        "mimeType1":"application/json",
+        "fileName2":"testImage.jpg",
+        "mimeType2":"image/jpg",
+        "fileName3":"MyFDA_Compliance_Status_Report.pdf",
+        "mimeType3":"application/pdf"
+    }
+}

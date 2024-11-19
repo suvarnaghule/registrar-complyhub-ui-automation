@@ -1,0 +1,76 @@
+{
+    "supplierName":"Agricola Casearia Lupara",
+    "supplierNameForCancelFlow":"Arpit Agro Industries",
+    "supplierNameForReqSupplierReg":"Courvoisier SA",
+    "registrationMethod":"Manually",
+    "regReqSupplierMethod":"",
+    "registrationType":
+    [  
+        { 
+            "Reg": "Food"         
+        },
+        {
+            "Reg":"Drug"                   
+        },
+        {
+            "Reg":"Medical"                     
+        },         
+        {
+            "Reg":"Cosmetic"           
+        }                           
+    ],
+    "approvedSuppliersData":
+    [
+        { 
+            "status":"Approved",
+            "addedBy":"Automation Team",         
+            "reasonNotes":"Automation Test"          
+        },
+        {
+            "status":"Approved",
+            "addedBy":"ComplyHub Team",
+            "reasonNotes":"New Supplier Test"           
+        },
+        {         
+            "status":"Approved",
+            "addedBy":"RegistrarCorp Team",
+            "reasonNotes":"Missing/Expired Docs Test"
+        },
+        {         
+            "status":"Undecided",
+            "addedBy":"Testing Team",
+            "reasonNotes":"Cosmetics added Test"
+        }
+    ],
+    "unApprovedSuppliersData":
+    [
+        { 
+            "status":"Unapproved",
+            "addedBy":"QA Team",
+            "reasonNotes":"GFSI Audit Test"
+        },
+        {
+            "status":"Unapproved",
+            "addedBy":"Manual Team",
+            "reasonNotes":"Recall Test"
+        },
+        {         
+            "status":"Unapproved",
+            "addedBy":"RegistrarCorp Team",
+            "reasonNotes":"Other Test"
+        },
+        {
+            "status":"Undecided",
+            "addedBy":"Automation QA Team",
+            "reasonNotes":"Cosmetics undecided Test"
+        }
+    ],
+    "supplierNote":[{"note":"update supplier details"},{"note":"supplier note added"},{"note":"test supplier note"},{"note":"cosmetic supplier note"}], 
+    "supplierStatusLabel":"Supplier Status" ,
+    "supplierListLabel":"List",
+    "supplierNoteLabel":"Notes",
+    "supplierFEILabel":"Facility Establishment Identifier (FEI)",
+    "supplierVendorIDLabel":"Vendor ID",
+    "registrationEmail":"automationcm2024@guerrillamail.com" , 
+    "regEmailSub":"MyFDA Monitor Notification"   
+}

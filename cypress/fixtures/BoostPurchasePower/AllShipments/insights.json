@@ -1,0 +1,91 @@
+{
+    "UserName": "FancyFood",
+    "UserPassword": "FDANYC",  
+    "supplier": "Simsek Biscuits and Food Industry Co",
+    "productCatText":"CAKES, FILLED (OTHER THAN FRUIT OR JELLY)" ,
+    "top10Exporters":[
+        {
+            "top10ExporterName":[
+                {
+                "exporterName":"BIMBO DEL NORTE SA DE CV"
+                },
+                {
+                "exporterName":"GIVE AND GO PREPARED FOODS CORP - HUMBER" 
+                },
+                {
+                "exporterName":"GIVE AND GO PREPARED FOODS CORP - FINCH"
+                },
+                {
+                "exporterName":"GIVE AND GO PREPARED FOODS CORP." 
+                },
+                {
+                "exporterName":"PARIS CROISSANT CO., LTD."   
+                },
+                {
+                "exporterName":"PRODUCTOS RICH, S.A. DE C.V."    
+                },
+                {
+                "exporterName":"LA ROCCA CREATIVE CAKES"    
+                },
+                {
+                "exporterName":"CHUDLEIGH'S"
+                },
+                {
+                "exporterName":"DAY-PLUS"  
+                },
+                {
+                "exporterName":"2058998 ONT. INC., O/A CT BAKERY"  
+                },
+                {                    
+                "exporterName":"SIMSEK BISCUITS AND FOOD INDUSTRY CO."  
+                },
+                {
+                "exporterName":"All Others"  
+                }              
+            ]   
+        },
+        {
+            "top10ExporterShipment": [
+                {
+                "shipment":2823
+                },
+                {
+                "shipment":1301	
+                },
+                {
+                "shipment":1056
+                },
+                {
+                "shipment":979
+                },
+                {
+                "shipment":566
+                },
+                {
+                "shipment":563
+                },
+                {
+                "shipment":477
+                },
+                {
+                "shipment":409
+                },
+                {
+                "shipment":302
+                },
+                {
+                "shipment":214
+                },
+                {
+                "shipment":3
+                },
+                {
+                "shipment":5480
+                }             
+            ]
+        },
+        {
+            "shipmentCount": 14173
+        }
+    ]    
+}    

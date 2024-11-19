@@ -1,0 +1,15 @@
+{
+    "docInput":{
+    "Name":"Importer Smart DMS Single Add Doc",
+    "Desc":"This is to test Importer Smart DMS Add Single Document flow", 
+    "ProductCatNum":"7456",
+    "ProductName":"Health Care",   
+    "Vi":2,
+    "Vp":{
+            "docVpText":"Month",
+            "docVpValue":"Month"
+    },       
+    "Comments":"test comments added"
+    },
+    "BulkUploadCount":"2"
+}

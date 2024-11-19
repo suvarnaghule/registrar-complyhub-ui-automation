@@ -1,0 +1,29 @@
+{
+    "UserName": "FancyFood",
+    "UserPassword": "FDANYC",
+    "facilityDDText": "Xiamen Kairun Co. Ltd. - Xiamen City",
+    "facilityDDValue":"1472426",
+    "status":"Suggested Document Required",
+    "docInput":{
+        "Name":"Smart DMS Single Add Doc",
+        "Desc":"This is to test Add Single Document flow",    
+        "Vi":6,
+        "Vp":{
+                "docVpText":"Month",
+                "docVpValue":"Month"
+        },       
+        "Comments":"test comments added"
+    },
+    "TypeOfFilter":"FDA Category",
+    "FilterValue":"biscuits",
+    "DocCatFilter":"Document Category",
+    "DocCatFilterValue":"training",
+    "DocTypeFilter":"Document Type",
+    "DocTypeFilterValue":"gmp program",
+    "ProductFilter":"Product Code",
+    "ProductFilterValue":"03ayy03",
+    "BulkUploadCount":"1",
+    "BulkIgnoreCount":"3",
+    "MergeDocCount":"2"
+
+}

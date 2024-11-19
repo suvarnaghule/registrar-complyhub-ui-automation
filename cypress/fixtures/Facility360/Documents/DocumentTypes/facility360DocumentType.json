@@ -1,0 +1,26 @@
+{
+    "UserName": "FancyFood",
+    "UserPassword": "FDANYC",
+    "facilityDDText": "Simsek Biscuits and Food Industry Co. - Karaman",
+    "facilityDDValue":"507542",
+    "data":{
+        "Name":"New Doc Type",
+        "Desc":"This is to test new document type",   
+        "Category" :"Food",
+        "Vi":6,
+        "Vp":{
+                "docVpText":"Month",
+                "docVpValue":"Month"
+        }       
+    },
+    "updateData":{
+        "Name":"Update New Doc Type",
+        "Desc":"This is to test update new document type",   
+        "Category" :"Acidified Foods",
+        "Vi":15,
+        "Vp":{
+                "docVpText":"Day",
+                "docVpValue":"Day"
+        }       
+    }
+}    

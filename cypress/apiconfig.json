@@ -1,5 +1,6 @@
 {
-   "baseUrl": "https://dev-registrarcorp.myfda.com/",
+
+  "baseurl":"https://monitor.dev.compliancemonitorapi.com/dashboard/login",
     "endpoints": {
       "products": "/products",
       "login": "/auth/login"

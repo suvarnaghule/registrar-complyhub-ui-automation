@@ -1,0 +1,17 @@
+{   
+    "updatedDocInput":{
+    "Type":"GMP Program",
+    "Name":"UIAutomationTest update",
+    "Desc":"This is to test update document flow",
+    "Cat":"FSVP",
+    "ProductCategory":"BREAD/ROLLS/BUNS, N.E.C.",
+    "Vi":3,
+    "Vp":{
+            "docVpText":"Year",
+            "docVpValue":"Year"
+    },
+    "Vf":"12/12/2023",
+    "Vt":"01/01/2024",
+    "Comments":"UI automation update test comments"
+    }
+}

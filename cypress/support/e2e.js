@@ -17,7 +17,13 @@
 import './commands'
 import 'cypress-mochawesome-reporter/register';
 import 'cypress-xpath';
+import '@shelex/cypress-allure-plugin';
+import 'cypress-file-upload'
+import 'cypress-grep'
+import 'cypress-map'
 
 // Alternatively you can use CommonJS syntax:
 require('./commands')
 require('cypress-xpath')
+require('cypress-grep')
+

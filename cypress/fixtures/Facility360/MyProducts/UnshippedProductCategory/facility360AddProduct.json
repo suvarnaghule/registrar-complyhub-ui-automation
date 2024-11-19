@@ -1,0 +1,11 @@
+{
+    "UserName": "FancyFood",
+    "UserPassword": "FDANYC",
+    "facilityDDText": "Casearia Monti Trentini S.p.A. - Grigno",
+    "facilityDDValue":"1742870",   
+    "productCategory":["productCategory","orange, topping or syrup,"],
+    "shipmentDate":"2025-02-25" ,
+    "productName":"Automation Product",
+    "productDesc":"Add new product through automation",
+    "newProductLabel":"New Product"
+}

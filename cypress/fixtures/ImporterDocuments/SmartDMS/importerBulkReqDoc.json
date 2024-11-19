@@ -1,0 +1,14 @@
+
+{
+"UserName": "fdamonitor",
+"UserPassword": "fda123",
+"contactEmail":"automationcm24@guerrillamail.com",
+"comments":"Sending Bulk Document Request through automation" ,  
+"docShareName":"Automation Test",
+"docShareEmail":"automationcm24@guerrillamail.com",
+"docShareEmailMsg":"Testing Share Doc Feature through automation",
+"docShareEmailSub":"Document Request from Registrar Corp",
+"bulkReqDocCount":"2",
+"SupplierFilter":"Supplier Name",
+"SupplierFilterValue":"agro food & spices"
+}

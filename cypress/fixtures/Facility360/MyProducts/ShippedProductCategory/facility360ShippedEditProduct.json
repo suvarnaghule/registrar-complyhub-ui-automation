@@ -1,0 +1,12 @@
+{
+    "UserName": "FancyFood",
+    "UserPassword": "FDANYC",
+    "facilityDDText": "Casearia Monti Trentini S.p.A. - Grigno",
+    "facilityDDValue":"1742870",  
+    "productCategory":["productCategory","cheese, reggiano"],
+    "searchProduct":"Automation Product",
+    "shipmentDate":"2025-02-25" ,
+    "productName":"Update Product",
+    "productDesc":"Update product through automation"
+    
+}

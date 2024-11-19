@@ -1,0 +1,22 @@
+{
+    "UserName": "FancyFood",
+    "UserPassword": "FDANYC",  
+    "supplier": "Simsek Biscuits and Food Industry Co",
+    "productCatText":"CAKE WITHOUT CUSTARD OR CREAM FILLING" ,
+    "shipmentArrivalDate":
+    {
+        "year":2024,
+        "month":"March",
+        "day":20
+    }, 
+    "shipmentEndDate"  :{
+        "year":2024,
+        "month":"June",
+        "day":30
+    }, 
+    "totalShipments":12,
+    "shipmentSummaryStatus":"Cleared",
+    "cleared":12,
+    "Detained":0,
+    "Refused":0
+}    

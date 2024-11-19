@@ -1,0 +1,16 @@
+{   
+    "UserName": "jbrendle@registrarcorp.com",
+    "UserPassword": "awesomesauce",
+    "facilityDDText": "Add Facility",
+    "facilityDDValue":"-1",
+    "facilityName":"AutomationTest",
+    "facilityAddressLine1" : "Encora Pvt Ltd",
+    "facilityCity": "Pune",
+    "facilityCountryText" :"India",
+    "facilityCountryValue":"IN",
+    "facilityManualAdd":"Option 2: Add Facilities Manually",
+    "facilityVerifyText":"AutomationTest - Pune",
+    "facilityVerifyValue":"1668974"
+    
+
+}

@@ -1,0 +1,447 @@
+{
+    "UserName": "FancyFood",
+    "UserPassword": "FDANYC",
+    "facilityDDText": "Simsek Biscuits and Food Industry Co. - Karaman",
+    "facilityDDValue":"507542", 
+    "productCatText":"CAKES, FILLED (OTHER THAN FRUIT OR JELLY)" ,
+    "top10Countries":[
+        {
+            "top10CountryName":[
+                {
+                "countryName":"Canada"
+                },
+                {
+                "countryName":"Mexico" 
+                },
+                {
+                "countryName":"Japan"
+                },
+                {
+                "countryName":"Italy" 
+                },
+                {
+                "countryName":"Korea, Republic of"   
+                },
+                {
+                "countryName":"Taiwan, Province of China"    
+                },
+                {
+                "countryName":"China"    
+                },
+                {
+                "countryName":"Hong Kong"
+                },
+                {
+                "countryName":"Germany"  
+                },
+                {
+                "countryName":"Russian Federation"  
+                },
+                {                    
+                "countryName":"France"  
+                },
+                {
+                "countryName":"Viet Nam"  
+                },
+                {
+                "countryName":"El Salvador"  
+                },
+                {
+                "countryName":"Colombia"  
+                },
+                {
+                "countryName":"Philippines"  
+                },
+                {
+                "countryName":"All Others"  
+                }              
+            ]   
+        },
+        {
+            "top10CountryShipment": [
+                {
+                "shipment":1767
+                },
+                {
+                "shipment":1145
+                },
+                {
+                "shipment":600
+                },
+                {
+                "shipment":326
+                },
+                {
+                "shipment":212
+                },
+                {
+                "shipment":186
+                },
+                {
+                "shipment":169
+                },
+                {
+                "shipment":138
+                },
+                {
+                "shipment":111
+                },
+                {
+                "shipment":69
+                },
+                {
+                "shipment":53
+                },
+                {
+                "shipment":50
+                },
+                {
+                "shipment":47
+                },
+                {
+                "shipment":44
+                },
+                {
+                "shipment":37
+                },
+                {
+                "shipment":237
+                }
+            ]
+        },
+        {
+        "shipmentCount": 5191
+        },
+        {
+            "DefaultTop10CountryName":[
+                {
+                "countryName":"Mexico" 
+                },
+                {
+                "countryName":"Canada" 
+                },
+                {
+                "countryName":"India"
+                },
+                {
+                "countryName":"Italy" 
+                },
+                {
+                "countryName":"Japan"   
+                },
+                {
+                "countryName":"Taiwan, Province of China"    
+                },
+                {
+                "countryName":"Spain"    
+                },
+                {
+                "countryName":"United Kingdom of Great Britain and Northern Ireland"
+                },
+                {
+                "countryName":"Russian Federation"  
+                },
+                {
+                "countryName":"Poland"  
+                },
+                {                    
+                "countryName":"Germany"  
+                },
+                {
+                "countryName":"Pakistan"  
+                },
+                {
+                "countryName":"Korea, Republic of"  
+                },
+                {
+                "countryName":"China"  
+                },
+                {
+                "countryName":"Ukraine"  
+                },
+                {
+                "countryName":"All Others"  
+                }              
+            ]     
+        },
+        {
+            "DefaultTop10CountryShipment": [
+                {
+                "shipment":9590
+                },
+                {
+                "shipment":4340
+                },
+                {
+                "shipment":1741
+                },
+                {
+                "shipment":1426
+                },
+                {
+                "shipment":1022
+                },
+                {
+                "shipment":642
+                },
+                {
+                "shipment":610
+                },
+                {
+                "shipment":498
+                },
+                {
+                "shipment":469
+                },
+                {
+                "shipment":298
+                },
+                {
+                "shipment":276
+                },
+                {
+                "shipment":250
+                },
+                {
+                "shipment":246
+                },
+                {
+                "shipment":180
+                },
+                {
+                "shipment":179
+                },
+                {
+                "shipment":2437
+                }
+            ]
+
+        }, 
+        {
+            "DefaultShipmentCount": 24204
+        }            
+    ], 
+    "top10Exporters":[
+        {
+            "top10ExporterName":[
+                {
+                "exporterName":"GIVE AND GO PREPARED FOODS CORP - HUMBER"
+                },
+                {
+                "exporterName":"BIMBO DEL NORTE SA DE CV" 
+                },
+                {
+                "exporterName":"PRODUCTOS RICH, S.A. DE C.V."
+                },
+                {
+                "exporterName":"PARIS CROISSANT CO., LTD." 
+                },
+                {
+                "exporterName":"SAGINAW ENT LTD"   
+                },
+                {
+                "exporterName":"EMMI DESSERT ITALIA SPA"    
+                },
+                {
+                "exporterName":"CHUDLEIGH'S"    
+                },
+                {
+                "exporterName":"ACC FOOD MANUFACTURER LLC FOSHAN"
+                },
+                {
+                "exporterName":"ISABELLE (TAIWAN) CO., LTD"  
+                },
+                {
+                "exporterName":"687203 ONTARIO LTD #17049"  
+                },
+                {                    
+                "exporterName":"MARUKYO CO., LTD."  
+                },
+                {
+                "exporterName":"MEI-XIN (HONG KONG) LTD."  
+                },
+                {
+                "exporterName":"DAY-PLUS"  
+                },
+                {
+                "exporterName":"KUCHENMEISTER GMBH"  
+                },
+                {
+                "exporterName":"GIVE AND GO PREPARED FOODS CORP."  
+                },
+                {
+                "exporterName":"SIMSEK BISCUITS AND FOOD INDUSTRY CO."
+                },
+                {
+                "exporterName":"All Others"  
+                }              
+            ]   
+        },
+        {
+            "top10ExporterShipment": [
+                {
+                "shipment":1028
+                },
+                {
+                "shipment":857
+                },
+                {
+                "shipment":264
+                },
+                {
+                "shipment":186
+                },
+                {
+                "shipment":160
+                },
+                {
+                "shipment":145
+                },
+                {
+                "shipment":140
+                },
+                {
+                "shipment":126
+                },
+                {
+                "shipment":119
+                },
+                {
+                "shipment":114
+                },
+                {
+                "shipment":98
+                },
+                {
+                "shipment":96
+                },
+                {
+                "shipment":82
+                },
+                {
+                "shipment":80
+                },
+                {
+                "shipment":67
+                },
+                {
+                "shipment":2
+                },
+                {
+                "shipment":1627
+                }
+            ]
+        },
+        {
+            "DefaultTop10ExporterName":[
+                {
+                "exporterName":"BIMBO S.A. DE C.V."
+                },
+                {
+                "exporterName":"MONDELEZ MEXICO S DE RL DE CV" 
+                },
+                {
+                "exporterName":"CREAT A TREAT"
+                },
+                {
+                "exporterName":"MONDELEZ MEXICO, S DE RL DE CV" 
+                },
+                {
+                "exporterName":"SABRITAS PLANTA OBREGON"   
+                },
+                {
+                "exporterName":"BIMBO DEL NORTE SA DE CV"    
+                },
+                {
+                "exporterName":"COMMERCIAL BAKERIES"    
+                },
+                {
+                "exporterName":"GIVE AND GO PREPARED FOODS CORP - HUMBER"
+                },
+                {
+                "exporterName":"PARLE PRODUCTS PVT. LTD."  
+                },
+                {
+                "exporterName":"SURATI SWEET MART LTD"  
+                },
+                {                    
+                "exporterName":"GALLETAS GULLON S.A"  
+                },
+                {
+                "exporterName":"NAFTA FOODS AND PACKAGING"  
+                },
+                {
+                "exporterName":"MONDELEZ MEXICO S. DE R.L. DE C.V."  
+                },
+                {
+                "exporterName":"KINNIKINNICK FOODS"  
+                },
+                {
+                "exporterName":"I-MEI FOODS CO LTD"  
+                },
+                {
+                "exporterName":"SIMSEK BISKUVI VE GIDA SANAYII A.S."
+                },
+                {
+                "exporterName":"All Others"  
+                }              
+            ]   
+        },
+        {
+            "DefaultTop10ExporterShipment": [
+                {
+                "shipment":3774
+                },
+                {
+                "shipment":2125
+                },
+                {
+                "shipment":1550
+                },
+                {
+                "shipment":1353
+                },
+                {
+                "shipment":847
+                },
+                {
+                "shipment":717
+                },
+                {
+                "shipment":450
+                },
+                {
+                "shipment":366
+                },
+                {
+                "shipment":362
+                },
+                {
+                "shipment":343
+                },
+                {
+                "shipment":340
+                },
+                {
+                "shipment":235
+                },
+                {
+                "shipment":216
+                },
+                {
+                "shipment":201
+                },
+                {
+                "shipment":147
+                },
+                {
+                "shipment":6
+                },
+                {
+                "shipment":11172
+                }
+            ]
+        }
+        
+    ]                                       
+}

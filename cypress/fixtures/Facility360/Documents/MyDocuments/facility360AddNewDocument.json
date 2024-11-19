@@ -1,0 +1,25 @@
+{
+"UserName": "FancyFood",
+"UserPassword": "FDANYC",
+"facilityDDText": "Simsek Biscuits and Food Industry Co. - Karaman",
+"facilityDDValue":"507542",
+"docInput":{
+    "Type":"Food Safety Plan complete",
+    "Name":"UIAutomationTest",
+    "Desc":"This is to test New Document flow",
+    "Cat":"General",
+    "ProductCategory":"CHOCOLATE PLAIN COOKIES,BISCUITS AND WAFERS",
+    "Vi":1,
+    "Vp":{
+            "docVpText":"Month",
+            "docVpValue":"Month"
+    },
+    "Vf":"12/12/2023",
+    "Vt":"01/01/2024",
+    "Comments":"UI automation test comments"
+},
+"docCat":"Acidified Foods",
+"validDocCount":4,
+"validDocStatusLabel":"Valid",
+"expiredDocStatusLabel":"Expired"
+}

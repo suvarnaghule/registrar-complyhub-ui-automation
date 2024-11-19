@@ -1,0 +1,246 @@
+{
+  "headerName": [
+    {
+      "value": "Status",
+      "formatCode": "General"
+    },
+    {
+      "value": "Facility Name",
+      "formatCode": "General"
+    },
+    {
+      "value": "Vendor Id",
+      "formatCode": "General"
+    },
+    {
+      "value": "Address Line 1",
+      "formatCode": "General"
+    },
+    {
+      "value": "Address Line 2",
+      "formatCode": "General"
+    },
+    {
+      "value": "City",
+      "formatCode": "General"
+    },
+    {
+      "value": "State",
+      "formatCode": "General"
+    },
+    {
+      "value": "Zip",
+      "formatCode": "General"
+    },
+    {
+      "value": "Country",
+      "formatCode": "General"
+    },
+    {
+      "value": "DUNS",
+      "formatCode": "General"
+    },
+    {
+      "value": "RegiScore",
+      "formatCode": "General"
+    },
+    {
+      "value": "FDA Food Registration",
+      "formatCode": "General"
+    },
+    {
+      "value": "FDA Food Registration Status",
+      "formatCode": "General"
+    },
+    {
+      "value": "FDA Drug Registration",
+      "formatCode": "General"
+    },
+    {
+      "value": "FDA Drug Registration Status",
+      "formatCode": "General"
+    },
+    {
+      "value": "FDA Medical Device Registration",
+      "formatCode": "General"
+    },
+    {
+      "value": "FDA Medical Device Registration Status",
+      "formatCode": "General"
+    },
+    {
+      "value": "Monitoring Started",
+      "formatCode": "General"
+    },
+    {
+      "value": "Third Party Audits",
+      "formatCode": "General"
+    },
+    {
+      "value": "FSSC",
+      "formatCode": "General"
+    },
+    {
+      "value": "SQF",
+      "formatCode": "General"
+    },
+    {
+      "value": "BRC",
+      "formatCode": "General"
+    },
+    {
+      "value": "Inspection Classifications",
+      "formatCode": "General"
+    },
+    {
+      "value": "Warning Letters",
+      "formatCode": "General"
+    },
+    {
+      "value": "Import Alerts",
+      "formatCode": "General"
+    },
+    {
+      "value": "Import Refusals",
+      "formatCode": "General"
+    },
+    {
+      "value": "Recalls",
+      "formatCode": "General"
+    },
+    {
+      "value": "Primary Contact Name",
+      "formatCode": "General"
+    },
+    {
+      "value": "Primary Contact Email",
+      "formatCode": "General"
+    },
+    {
+      "value": "Notes",
+      "formatCode": "General"
+    }
+  ],
+  "headerValue": [
+    {
+      "value": "",
+      "formatCode": "General"
+    },
+    {
+      "value": "Bard Peripheral Vascular, Inc.",
+      "formatCode": "General"
+    },
+    {
+      "value": "",
+      "formatCode": "General"
+    },
+    {
+      "value": "1625 West 3rd Street",
+      "formatCode": "General"
+    },
+    {
+      "value": "",
+      "formatCode": "General"
+    },
+    {
+      "value": "Tempe",
+      "formatCode": "General"
+    },
+    {
+      "value": "AZ",
+      "formatCode": "General"
+    },
+    {
+      "value": "85281-2438",
+      "formatCode": "General"
+    },
+    {
+      "value": "United States of America",
+      "formatCode": "General"
+    },
+    {
+      "value": "135057938",
+      "formatCode": "General"
+    },
+    {
+      "value": 77,
+      "formatCode": "General"
+    },
+    {
+      "value": "",
+      "formatCode": "General"
+    },
+    {
+      "value": "",
+      "formatCode": "General"
+    },
+    {
+      "value": "",
+      "formatCode": "General"
+    },
+    {
+      "value": "",
+      "formatCode": "General"
+    },
+    {
+      "value": 2020394,
+      "formatCode": "General"
+    },
+    {
+      "value": "Valid",
+      "formatCode": "General"
+    },
+    {
+      "value": "09/13/2024",
+      "formatCode": "General"
+    },
+    {
+      "value": "",
+      "formatCode": "General"
+    },
+    {
+      "value": "",
+      "formatCode": "General"
+    },
+    {
+      "value": "",
+      "formatCode": "General"
+    },
+    {
+      "value": "",
+      "formatCode": "General"
+    },
+    {
+      "value": "No Action Indicated (NAI) on Feb 24, 2014: Compliance: Med Devices|Product Evaluation: Med Devices; No Action Indicated (NAI) on Mar 20, 2014: Product Evaluation: Med Devices; Official Action Indicated (OAI) on Jan 5, 2015: Compliance: Med Devices|Postmarket Assurance: Med Devices; No Action Indicated (NAI) on Dec 18, 2015: Compliance: Med Devices; Voluntary Action Indicated (VAI) on Dec 18, 2015: Postmarket Assurance: Med Devices|Product Evaluation: Med Devices; No Action Indicated (NAI) on Feb 26, 2016: Postmarket Assurance: Med Devices; Voluntary Action Indicated (VAI) on Feb 26, 2016: Compliance: Med Devices; Voluntary Action Indicated (VAI) on Jul 15, 2016: Compliance: Med Devices; No Action Indicated (NAI) on Nov 1, 2016: Compliance: Med Devices; No Action Indicated (NAI) on Feb 3, 2017: Product Evaluation: Med Devices; No Action Indicated (NAI) on Jul 21, 2017: Compliance: Med Devices; No Action Indicated (NAI) on Nov 2, 2018: Compliance: Med Devices|Postmarket Assurance: Med Devices|Product Evaluation: Med Devices",
+      "formatCode": "General"
+    },
+    {
+      "value": "Jul 13, 2015: FDA issued an FDA Warning Letter for Premarket Approval/Misbranded/Adulterated -- Dec 16, 2016: FDA issued a Closeout Letter",
+      "formatCode": "General"
+    },
+    {
+      "value": "N/A",
+      "formatCode": "General"
+    },
+    {
+      "value": "N/A",
+      "formatCode": "General"
+    },
+    {
+      "value": "Jan 23, 2013: Class II recall for Devices (Recall Number: Z-1526-2013) BARD Biopsy Systems (A Business Unit of Bard Peripheral Vascular, Inc.), UltraClip® Dual Trigger Breast Tissue Marker 17g X 10cm needle, Ultrasound Enhanced Coil Marker 5 Pack; Sterilize, Non-pyrogenic, Rx only, Single Use; Bard Peripheral Vascular, Inc., 1625 West 3rd Street, Tempe, AZ 85281 USA.&#13;\nPK4320100 Rev. 0 03/10&#13;\n&#13;\nThe UltraClip Dual Trigger breast tissue marker is a sterile, single use device comprised of a disposable introducer, and a metal implantable tissue marker with polyvinyl alcohol (PVA).  - Bard Peripheral Vascular (BPV) is initiating this recall because a combination of Bard® UltraClip® Dual Trigger Tissue Marker's and support catheters (Microsheath and Usher) were inadvertently distributed to customers without completing the sterilization process (non sterile). -- Status: Terminated; Jan 23, 2013: Class II recall for Devices (Recall Number: Z-1527-2013) BARD Biopsy Systems (A Business Unit of Bard Peripheral Vascular, Inc.), UltraClip® Dual Trigger Breast Tissue Marker 17g X 10cm needle, Ultrasound Enhanced Ribbon Marker 5 Pack, Sterile, Single Use, Non-pyrogenic, Rx only; Bard Peripheral Vascular, Inc., 1625 West 3rd Street, Tempe, AZ 85281 USA. PK4313800 Rev. 1 01/11&#13;\n&#13;\nThe UltraClip Dual Trigger breast tissue marker is a sterile, single use device comprised of a disposable introducer, and a metal implantable tissue marker with polyvinyl alcohol (PVA).  - Bard Peripheral Vascular (BPV) is initiating this recall because a combination of Bard® UltraClip® Dual Trigger Tissue Marker's and support catheters (Microsheath and Usher) were inadvertently distributed to customers without completing the sterilization process (non sterile). -- Status: Terminated; Jan 23, 2013: Class II recall for Devices (Recall Number: Z-1528-2013) MICROSHEATH® - 0.066 (1.7mm) proximal, 0.064 (1.6mm); WL 123cm, RGC 8F Guide; minimum ID: 0.086\"/ (2.2mm);distal, straight non-tapered tip; PK1018-03A; Bard Peripheral Vascular; Manuf: Flow Cardia, Inc., a Subsidiary of C.R. Bard, Inc. 745 North Pastoria Ave., Sunnyvale, CA 94085.&#13;\n&#13;\n&#13;\n&#13;\nThe MicroSheath and Usher Support Catheters are single lumen catheters intended to create a pathway for other devices in the peripheral vasculature. MicroSheath® is a single lumen catheter that has a 123cm working length and a straight tip shape - Bard Peripheral Vascular (BPV) is initiating this recall because a combination of Bard® UltraClip® Dual Trigger Tissue Marker's and support catheters (Microsheath and Usher) were inadvertently distributed to customers without completing the sterilization process (non sterile). -- Status: Terminated; Jan 23, 2013: Class II recall for Devices (Recall Number: Z-1529-2013) USHER® Support Catheter- Angled Tip  WL130cm, RI 7F; REF USH07AT; PK1022-01A; Rx only, Non-Pyrogenic, Sterile; Bard Peripheral Vascular; Manuf: FlowCardia, Inc., a Subsidiary of C. R. Bard, Inc., 745 North Pastoria Ave, Sunnyvale CA 95085. &#13;\n&#13;\nThe Usher® Peripheral is a single lumen support catheter, with a standard luer fitting at the proximal end. The Usher® Peripheral is available in a length 130 cm with an angled tip shape.  - Bard Peripheral Vascular (BPV) is initiating this recall because a combination of Bard® UltraClip® Dual Trigger Tissue Marker's and support catheters (Microsheath and Usher) were inadvertently distributed to customers without completing the sterilization process (non sterile). -- Status: Terminated; Apr 16, 2013: Class II recall for Devices (Recall Number: Z-1524-2013) BARD Biopsy Systems UltraClip Dual Trigger breast tissue marker. &#13;\n&#13;\nIntended for use to attach to soft breast tissue at the surgical site during an open surgical breast biopsy. &#13;\n&#13;\n - Bard Peripheral Vascular (BPV) has confirmed that some devices with the recalled product code / lot number&#13;\ncombination may have the metal tissue marker separated from the needle prior to use. -- Status: Terminated; May 28, 2013: Class II recall for Devices (Recall Number: Z-1533-2013) BARD PERIPHERAL VASCULAR VACCESS® PTA Balloon Dilatation Catheters, 8mm x 4cm x 80cm.&#13;\n&#13;\nProduct Usage:  Vaccess® PTA Balloon Dilatation Catheters are recommended for use in Percutaneous Transluminal Angioplasty of the femoral, iliac and renal arteries and for the treatment of obstructive lesions of native or synthetic arteriovenous dialysis fistulae. This device is also recommended for post-dilatation of balloon expandable stents, self-expanding stents and stent grafts in the peripheral vasculature. This catheter is not for use in coronary arteries. Vaccess® PTA Balloon Dilatation Catheters are supplied sterile and intended for single use. - Bard Peripheral Vascular (BPV) has confirmed that some product code/lot number combination of devices may have the incorrect balloon diameter labeled on the inflation hub. Specifically, the balloon size printed on the hub may read 7mm x 4cm, when the actual balloon size is 8mm x 4cm. All other product labeling is consistent with the actual 8mm x 4cm balloon size. -- Status: Terminated; Sep 30, 2013: Class I recall for Devices (Recall Number: Z-0007-2014) Bard LifeStent Solo Vascular Stent, Item Numbers: EX062001CL, EX072001CL, EX062003CL, EX072003CL.&#13;\n&#13;\nThe LifeStent Solo Vascular Stent System is intended to improve luminal diameter in the treatment of symptomatic de-novo or restenotic lesions up to 240 mm in length in the native superficial femoral artery (SFA) and in the proximal popliteal artery with reference vessel diameters ranging from 4.0 � 6.5 mm. - Bard Peripheral Vascular is recalling specific lots of Bard Lifestent Solo Vascular Stent because they have determined a higher incidence rate of partial stent deployment associated with their use. -- Status: Terminated; Aug 26, 2014: Class II recall for Devices (Recall Number: Z-2648-2014) Bard DuaLok Breast Lesion Localization Wire, &#13;\nProduct Code (Gauge x Length) LW0037 (20gx37mm); LW0057 (20gx57mm), LW0077(20gx77mm), LW0107(20gx107mm), LW0137(20gx137mm).&#13;\n&#13;\nThe Bard DuaLok Breast Lesion Localization Wire is intended for use as a guide for directing surgical biopsies. - Bard Peripheral is recalling the Bard DuaLok Breast Lesion Localization Wire because it may be at risk of having portions of the wire protruding from the packaging, thus representing a breach of sterile barrier. -- Status: Terminated; Mar 17, 2015: Class II recall for Devices (Recall Number: Z-1447-2015) Bard Monopty Disposable Core Biopsy Instruments and Kits, Monopty 14g x 16cm (22mm), Product Code: 121416; Monopty Biopsy, Product Code: 000441; Monopty 14g x 10cm (22mm), Product Code: 121410; Monopty 14g x 10cm (11mm), Product Code: 211410.&#13;\n&#13;\nThe BARD MONOPTY Disposable Core Biopsy Instrument is a single use core biopsy device. It is available in several needle gauge sizes and lengths. The actuator button and arrow in the ready window are color coded according to the various gauge sizes, e.g., Yellow=20 gauge, Pink=18 gauge, Purple=16 gauge, Green=14 gauge, and Light Blue=12 gauge. (Only the 14 gauge size has been reported to be affected by this issue). The core needle biopsy device is intended for use in obtaining biopsies from soft tissues such as liver, kidney, prostate, spleen, lymph nodes and various soft tissue tumors. It is not intended for use in bone. - Bard Peripheral Vascular is recalling the Bard Monopty Disposable Core Biopsy Instruments and Kits because they may be at risk of having activation-related issues. -- Status: Terminated; Mar 23, 2015: Class II recall for Devices (Recall Number: Z-1413-2015) Bard ConQuest PTA Balloon Dilatation Catheter, 12mm Balloon Size, Product Code: CQ-75124. - Bard Peripheral Vascular is recalling the Bard ConQuest PTA Balloon Dilatation Catheter because it may be at risk of having deflation related issues. -- Status: Terminated; Apr 9, 2015: Class II recall for Devices (Recall Number: Z-1586-2015) BARD MAX-CORE Disposable Core Biopsy Instrument&#13;\n&#13;\nGauge x Length&#13;\n18g x 20cm&#13;\n&#13;\nThe BARD MAX-CORE Disposable Core Biopsy Instrument is a single patient use core biopsy device.  It is available in several needle gauge sizes and lengths.  The side and rear actuator buttons are color-coded according to the various gauge sizes e.g., yellow=20 gauge, pink=18 gauge, purple=16 gauge, and green=14 gauge. - The firm is recalling Bard MAX-CORE Disposable Core Biopsy Instrument due to the risk of having self-activation-related issues. -- Status: Terminated; Oct 19, 2015: Class II recall for Devices (Recall Number: Z-0223-2016) FLAIR Endovascular Stent Graft, Product Code: FAS08070, FAF08070, Implant Size: 8mmx70mm&#13;\nThe FLAIR Endovascular Stent Graft (implant) is a flexible, self-expanding endoprosthesis comprised of expanded polytetrafluoroethylene (ePTFE) encapsulating a Nitinol stent framework. The FLAIR Endovascular Stent Graft is available in both flared and straight configurations. The distal end of the flared configuration devices are approximately 4mm larger in diameter than the body section. - Bard Peripheral Vascular (BPV) is recalling the Bard Flair Endovascular Stent Graft because of the harm associated with failure to deploy or deployment related issues that could occur during use. -- Status: Terminated; Mar 13, 2015: Class II recall for Devices (Recall Number: Z-0737-2016) Denali Filter-Jugular/Subclavian DL950J&#13;\nDenali Filter-Femoral Delivery DL950F.&#13;\n Intravascular filters. - IFU missing contraindications:   Patients with uncontrolled sepsis and Patients with known hypersensitivity to nickel-titanium alloys. -- Status: Terminated; Jan 5, 2016: Class II recall for Devices (Recall Number: Z-0785-2016) Bard Distaflo Vascular Bypass Graft; Product Code: DF6006SC; 8 mm x 60 cm.&#13;\nIntended for bypass or reconstruction of peripheral arterial blood vessels. - Size mislabeling; the graft is labeled as a 6 mm diameter graft when the actual packaged product is an 8 mm graft. -- Status: Terminated; Jan 5, 2016: Class II recall for Devices (Recall Number: Z-0786-2016) Bard Distaflo Vascular Bypass Graft; Product Code: DF8006SC; 6 mm x 80 cm.&#13;\nIntended for bypass or reconstruction of peripheral arterial blood vessels. - Size mislabeling; the graft is a 6 mm diameter graft when the actual packaged product is an 8 mm graft. -- Status: Terminated; Feb 4, 2016: Class II recall for Devices (Recall Number: Z-1396-2016) Bard TruGuide Disposable Coaxial Biopsy Needle&#13;\n&#13;\nProduct Usage:&#13;\nThe TruGuide Disposable Coaxial Biopsy Needles are intended for use as a guiding needle in obtaining core biopsy samples from soft tissue such as liver, kidney, spleen, lymph nodes and various soft tissue lesions.&#13;\n - Bard Peripheral Vascular, Inc. is recalling Bard TruGuide Disposable Coaxial Biopsy Needles because they have the potential to have the incorrect sized blunt tip stylet within its packaging that will not pass through the coaxial. -- Status: Terminated; Feb 9, 2016: Class II recall for Devices (Recall Number: Z-1068-2016) Denali Filter-Jugular/Subclavian Delivery System&#13;\nProduct Code: DL900J/DL950J;&#13;\nIndicated for use in the prevention of recurrent pulmonary embolism via placement in the vena cava. - Bard Peripheral Vascular, Inc. is recalling Denali Filter-Jugular/Subclavian Delivery System and Denali Filter-Femoral Delivery System because of the stop cocks potentially cracking. -- Status: Terminated; Feb 9, 2016: Class II recall for Devices (Recall Number: Z-1069-2016) Denali Filter-Femoral Delivery System&#13;\nProduct Code: DL900F/DL950F;&#13;\nIndicated for use in the prevention of recurrent pulmonary embolism via placement in the vena cava. - Bard Peripheral Vascular, Inc. is recalling Denali Filter-Jugular/Subclavian Delivery System and Denali Filter-Femoral Delivery System because of the stop cocks potentially cracking. -- Status: Terminated; Jul 6, 2016: Class II recall for Devices (Recall Number: Z-2547-2016) Bard TruGuide Disposable Coaxial Biopsy Needle � Mixed Product&#13;\n&#13;\nPart Number C1816B&#13;\nThe TruGuide Disposable Coaxial Biopsy Needles are intended for use as a guiding needle in obtaining core biopsy samples from soft tissue such as liver, kidney, spleen, lymph nodes and various soft tissue lesions. - May contain two trocar tip stylets with coaxials or two blunt tip stylets instead of one of each. -- Status: Terminated; Mar 28, 2017: Class II recall for Devices (Recall Number: Z-1900-2017) MR GHIATAS Beaded Breast Localization Wire, Product Code: 477201, 479201&#13;\n&#13;\nProduct Usage:&#13;\nThe GHIATAS Beaded Breast Localization Wire consists of an introducer needle and asemi-rigid localization wire that are intended for use during breast lesion surgery as a guidefor the surgeon to follow in the excision of the lesion. Product Codes 47020, 475201, 477201,479201, and 470201 do not have the ultrasound enhancement shown in Figure 1. In addition,Product Codes 475201, 477201, 479201, and 470201 may be placed under MRI guidance.&#13;\n. - It may be at risk of containing a non-MR compatible GHIATAS Beaded Breast Localization Wire instead of a MR compatible GHIATAS Beaded Breast Localization Wire. -- Status: Terminated; Sep 22, 2017: Class II recall for Devices (Recall Number: Z-0044-2018) BARD MAX-CORE Disposable Core Biopsy Instrument, Product Codes - MC1410, 14 g x 10 cm; MC1616, 16 g x 16 cm; MC1816, 18 g x 16 cm; MC1820, 18 g x 20 cm; MC1825, 18 g x 25 cm.\n\nThe core needle biopsy device is intended for use in obtaining biopsies from soft tissues. - During the review of May 2017 complaint data, a significant increase in MAX-CORE Disposable Core Biopsy Instrument complaints was observed for Failure to Prime, Failure to Fire, Failure to Obtain Sample, and Self-Activation. -- Status: Terminated; Feb 8, 2018: Class II recall for Devices (Recall Number: Z-1760-2018) POWERPORT(R) ClearVUE(R) isp with Smooth Septum, 6F ChronoFlex(TM), Polyurethane Catheter, REF 1666362 - The Patient ID Card packaged with the POWERPORT ClearVUE Implantable Port with Smooth Septum contains incorrect port flushing instructions.  -- Status: Ongoing; Feb 8, 2018: Class II recall for Devices (Recall Number: Z-1761-2018) POWERPORT ClearVUE isp with Smooth Septum, 8F ChronoFlex, Polyurethane Catheter, REF 1668362 - The Patient ID Card packaged with the POWERPORT ClearVUE Implantable Port with Smooth Septum contains incorrect port flushing instructions.  -- Status: Ongoing; Feb 8, 2018: Class II recall for Devices (Recall Number: Z-1762-2018) POWERPORT ClearVUE Slim with Smooth Septum, 6F ChronoFlex Silk, Polyurethane Catheter, REF 1676300 - The Patient ID Card packaged with the POWERPORT ClearVUE Implantable Port with Smooth Septum contains incorrect port flushing instructions.  -- Status: Ongoing; Feb 8, 2018: Class II recall for Devices (Recall Number: Z-1763-2018) POWERPORT ClearVUE Slim with Smooth Septum, 6F ChronoFlex, Polyurethane Catheter with Open Suture Holes, REF 1676301 - The Patient ID Card packaged with the POWERPORT ClearVUE Implantable Port with Smooth Septum contains incorrect port flushing instructions.  -- Status: Ongoing; Feb 8, 2018: Class II recall for Devices (Recall Number: Z-1764-2018) POWERPORT ClearVUE Slim with Smooth Septum, 8F ChronoFlex,  Polyurethane Catheter, REF 1678300 - The Patient ID Card packaged with the POWERPORT ClearVUE Implantable Port with Smooth Septum contains incorrect port flushing instructions.  -- Status: Ongoing; Feb 8, 2018: Class II recall for Devices (Recall Number: Z-1765-2018) POWERPORT ClearVUE Slim with Smooth Septum, 8F ChronoFlex, Polyurethane Catheter with Open Suture Holes, REF 1678301 - The Patient ID Card packaged with the POWERPORT ClearVUE Implantable Port with Smooth Septum contains incorrect port flushing instructions.  -- Status: Ongoing; Feb 8, 2018: Class II recall for Devices (Recall Number: Z-1766-2018) POWERPORT ClearVUE isp with Smooth Septum, 6F ChronoFlex, Polyurethane Catheter, REF 5666362 - The Patient ID Card packaged with the POWERPORT ClearVUE Implantable Port with Smooth Septum contains incorrect port flushing instructions.  -- Status: Ongoing; Feb 8, 2018: Class II recall for Devices (Recall Number: Z-1767-2018) POWERPORT ClearVUE isp with Smooth Septum, 8F ChronoFlex, Polyurethane Catheter, REF 5668362 - The Patient ID Card packaged with the POWERPORT ClearVUE Implantable Port with Smooth Septum contains incorrect port flushing instructions.  -- Status: Ongoing; Feb 8, 2018: Class II recall for Devices (Recall Number: Z-1768-2018) POWERPORT ClearVUE Slim with Smooth Septum, 6F ChronoFlex Silk, Polyurethane Catheter, REF 5676300 - The Patient ID Card packaged with the POWERPORT ClearVUE Implantable Port with Smooth Septum contains incorrect port flushing instructions.  -- Status: Ongoing; Feb 8, 2018: Class II recall for Devices (Recall Number: Z-1769-2018) POWERPORT ClearVUE Slim with Smooth Septum, 6F ChronoFlex Silk, Polyurethane Catheter with Open Suture Holes, REF 5676301 - The Patient ID Card packaged with the POWERPORT ClearVUE Implantable Port with Smooth Septum contains incorrect port flushing instructions.  -- Status: Ongoing; Feb 8, 2018: Class II recall for Devices (Recall Number: Z-1770-2018) POWERPORT ClearVUE Slim with Smooth Septum, 8F ChronoFlex, Polyurethane Catheter with open suture holes, REF 5678300 - The Patient ID Card packaged with the POWERPORT ClearVUE Implantable Port with Smooth Septum contains incorrect port flushing instructions.  -- Status: Ongoing; Feb 8, 2018: Class II recall for Devices (Recall Number: Z-1771-2018) POWERPORT ClearVUE Slim with Smooth Septum, 8F ChronoFlex, Polyurethane Catheter with open suture holes, REF 5678301 - The Patient ID Card packaged with the POWERPORT ClearVUE Implantable Port with Smooth Septum contains incorrect port flushing instructions.  -- Status: Ongoing; Feb 8, 2018: Class II recall for Devices (Recall Number: Z-1772-2018) POWERPORT ClearVUE isp Implantable Port With Smooth Septum and Attachable 8F Polyurethane Open-Ended Single-Lumen Venous Catheter Custom Kit, REF CP00004 - The Patient ID Card packaged with the POWERPORT ClearVUE Implantable Port with Smooth Septum contains incorrect port flushing instructions.  -- Status: Ongoing; Feb 8, 2018: Class II recall for Devices (Recall Number: Z-1773-2018) POWERPORT ClearVUE Slim Implantable Port with Smooth Septum and Attachable 8F Polyurethane Open-Ended Single-Lumen Venous Catheter Custom Kit, REF CP00005 - The Patient ID Card packaged with the POWERPORT ClearVUE Implantable Port with Smooth Septum contains incorrect port flushing instructions.  -- Status: Ongoing; Apr 16, 2018: Class II recall for Devices (Recall Number: Z-1802-2018) BARD PERIPHERAL VASCULAR SEEKER(R) Crossing Support Catheter, 0.035\", 150 cm, REF SK15035M.\n\nIntended to support a guidewire during access into the vasculature. - Device is at risk of having detectable levels of bacterial endotoxin present on the packaging hoop that the catheter is packaged in. The bacterial endotoxin levels for the catheters are within acceptable levels; however, if bacterial endotoxins are present on the packaging hoops it may have the potential for cross-contamination in a clinical setting. -- Status: Terminated; Apr 16, 2018: Class II recall for Devices (Recall Number: Z-1803-2018) BARD PERIPHERAL VASCULAR SEEKER(R) Crossing Support Catheter, 0.014\", 150 cm, REF SK15014.\n\nIntended to support a guidewire during access into the vasculature. - Device is at risk of having detectable levels of bacterial endotoxin present on the packaging hoop that the catheter is packaged in. The bacterial endotoxin levels for the catheters are within acceptable levels; however, if bacterial endotoxins are present on the packaging hoops it may have the potential for cross-contamination in a clinical setting. -- Status: Terminated; Nov 3, 2011: Class II recall for Devices (Recall Number: Z-0351-2012) The EnCor� biopsy  probe, designed for use with EnCor� and EnCor� Enspire Vacuum Assisted Biopsy (VAB) driver systems.\n\nThe EnCor� Biopsy Device is indicated for use in acquiring tissue for diagnosing breast abnormalities and is supplied sterile and intended for single use.  - This recall was voluntarily initiated by the firm due to the product 's damaged packaging trays; cracked EnCor (Trademark) packaging trays, plastic PETG tray the probe is packaged in was cracked. -- Status: Terminated; May 31, 2019: Class II recall for Devices (Recall Number: Z-2385-2019) GlidePath Long-Term Hemodialysis Catheter with Preloaded Stylet, REF/Product code:5393270, 14.5F, Straight, 27cm length, BARD, UDI: 00801741012198 - The action is being initiated due to complaints received concerning  the molded tip of the tunneler breaking or is damaged during the placement procedure of the catheter.  -- Status: Terminated; May 31, 2019: Class II recall for Devices (Recall Number: Z-2384-2019) GlidePath Long-Term Hemodialysis Catheter with Preloaded Stylet, REF/Product code:5393230, 14.5F, Straight, 23cm length, BARD, UDI: 00801741012181 - The action is being initiated due to complaints received concerning  the molded tip of the tunneler breaking or is damaged during the placement procedure of the catheter.  -- Status: Terminated; May 31, 2019: Class II recall for Devices (Recall Number: Z-2383-2019) GlidePath Long-Term Hemodialysis Catheter with Preloaded Stylet, REF/Product code:5393190, 14.5F, Straight, 19cm length, BARD, UDI: 00801741012174 - The action is being initiated due to complaints received concerning  the molded tip of the tunneler breaking or is damaged during the placement procedure of the catheter.  -- Status: Terminated; May 31, 2019: Class II recall for Devices (Recall Number: Z-2395-2019) GlidePath Long-Term Hemodialysis Catheter with Preloaded stylet, REF/Product code:5397500, 14.5F, straight, 50cm length, BARD, UDI: 00801741012358 - The action is being initiated due to complaints received concerning  the molded tip of the tunneler breaking or is damaged during the placement procedure of the catheter.  -- Status: Terminated; May 31, 2019: Class II recall for Devices (Recall Number: Z-2371-2019) EQUISTREAM Long-Term Hemodialysis Catheter with Preloaded Styet, REF/Product code:5903190, 14.5F, Straight ,19cm length, BARD, UDI#  00801741013690&#13;\n - The action is being initiated due to complaints received concerning  the molded tip of the tunneler breaking or is damaged during the placement procedure of the catheter.  -- Status: Terminated; Jun 25, 2018: Class II recall for Devices (Recall Number: Z-2080-2019) POWERPORT CLEARVUE isp, 6F CHRONOFLEX Catheter, Intermediate NAUTILUS DELTA  Kit; \nPOWERPORT CLEARVUE isp, 8F CHRONOFLEX Catheter, Intermediate NAUTILUS DELTA Kit; \nPOWERPORT CLEARVUE Slim, 6F CHRONOFLEX Catheter and Suture Plugs, Intermediate NAUTILUS DELTA Kit; \nPOWERPORT CLEARVUE Slim, 8F CHRONOFLEX Catheter and Suture Plugs, Intermediate NAUTILUS DELTA Kit; \nNAUTILUS DELTA Tip Confirmation System (Includes: Netbook with Pre-loaded\nSoftware, Patient Module, and ECG Cable)\n\nProduct Usage:  Is an implantable access device designed to provide repeated access to the vascular system.  - Certain NAUTILUS DELTA Port Kit product code / lot number combinations may be at risk of experiencing a lack of or a loss of the intravascular ECG signal during port placement procedures when used in combination with the NAUTILUS DELTA\" TCS.  -- Status: Ongoing; May 31, 2019: Class II recall for Devices (Recall Number: Z-2382-2019) EQUISTREAM XK  Long-Term Hemodialysis Catheter with Preloaded Stylet, REF/Product code:5913420, 16F, Straight, 42cm length, BARD, UDI: 00801741013881 - The action is being initiated due to complaints received concerning  the molded tip of the tunneler breaking or is damaged during the placement procedure of the catheter.  -- Status: Terminated; May 31, 2019: Class II recall for Devices (Recall Number: Z-2378-2019) EQUISTREAM XK  Long-Term Hemodialysis Catheter with Preloaded Stylet, REF/Product code:5913230, 16F, Straight, 23cm length, BARD, UDI: 00801741013843 - The action is being initiated due to complaints received concerning  the molded tip of the tunneler breaking or is damaged during the placement procedure of the catheter.  -- Status: Terminated; May 31, 2019: Class II recall for Devices (Recall Number: Z-2390-2019) GlidePath Long-Term Hemodialysis Catheter with Preloaded stylet, REF/Product code:5397190, 14.5F, straight, 19cm length, BARD, UDI: 00801741012297 - The action is being initiated due to complaints received concerning  the molded tip of the tunneler breaking or is damaged during the placement procedure of the catheter.  -- Status: Terminated; May 31, 2019: Class II recall for Devices (Recall Number: Z-2377-2019) EQUISTREAM XK  Long-Term Hemodialysis Catheter with Preloaded Stylet, REF/Product code:5913190, 16F, Straight, 19cm length, BARD, UDI: 00801741013836 - The action is being initiated due to complaints received concerning  the molded tip of the tunneler breaking or is damaged during the placement procedure of the catheter.  -- Status: Terminated; May 31, 2019: Class II recall for Devices (Recall Number: Z-2379-2019) EQUISTREAM XK  Long-Term Hemodialysis Catheter with Preloaded Stylet, REF/Product code:5913270, 16F, Straight, 27cm length, BARD, UDI: 00801741013850 - The action is being initiated due to complaints received concerning  the molded tip of the tunneler breaking or is damaged during the placement procedure of the catheter.  -- Status: Terminated; May 31, 2019: Class II recall for Devices (Recall Number: Z-2370-2019) EQUISTREAM LONG-TERM HEMODIALYSIS CATHETER, REF/Product code:5905280, 14.5 Fr. Alphacurve Catheter with Standard Kit, 28cm length,  BARD, UDI#  00801741013812&#13;\n - The action is being initiated due to complaints received concerning  the molded tip of the tunneler breaking or is damaged during the placement procedure of the catheter.  -- Status: Terminated; May 31, 2019: Class II recall for Devices (Recall Number: Z-2386-2019) GlidePath Long-Term Hemodialysis Catheter with Preloaded Stylet, REF/Product code:5393420, 14.5F, Straight, 42cm length, BARD, UDI: 00801741012228 - The action is being initiated due to complaints received concerning  the molded tip of the tunneler breaking or is damaged during the placement procedure of the catheter.  -- Status: Terminated; May 31, 2019: Class II recall for Devices (Recall Number: Z-2388-2019) GlidePath Long-Term Hemodialysis Catheter, REF/Product code:5396240, 14.5F, Alphacurve, 19cm length, BARD, UDI: 00801741012259 - The action is being initiated due to complaints received concerning  the molded tip of the tunneler breaking or is damaged during the placement procedure of the catheter.  -- Status: Terminated; May 31, 2019: Class II recall for Devices (Recall Number: Z-2387-2019) GlidePath Long-Term Hemodialysis Catheter, REF/Product code:5396190, 14.5F, Alphacurve, 19cm length, BARD, UDI: 00801741012242 - The action is being initiated due to complaints received concerning  the molded tip of the tunneler breaking or is damaged during the placement procedure of the catheter.  -- Status: Terminated; May 2, 2019: Class II recall for Devices (Recall Number: Z-2209-2019) EnCor Breast Biopsy Probes, packaged individually in sterile pouches, 5 pouches/carton, single use, Rx, catalog/REF number 10G - REF ECP0110G. Product Usage: Indicated for use in acquiring tissue for diagnosing breast abnormalities. - There has been an increase in complaints related to leaks, suction issues, and failure to obtain samples while using the product. -- Status: Terminated; May 31, 2019: Class II recall for Devices (Recall Number: Z-2373-2019) EQUISTREAM Long-Term Hemodialysis Catheter with Preloaded Styet, REF/Product code:5903270, 14.5F, Straight ,27cm length, BARD, UDI: 00801741013713&#13;\n - The action is being initiated due to complaints received concerning  the molded tip of the tunneler breaking or is damaged during the placement procedure of the catheter.  -- Status: Terminated; May 31, 2019: Class II recall for Devices (Recall Number: Z-2374-2019) EQUISTREAM Long-Term Hemodialysis Catheter with Preloaded Styet, REF/Product code:5903310, 14.5F, Straight ,31cm length, BARD, UDI: 00801741013720&#13;\n - The action is being initiated due to complaints received concerning  the molded tip of the tunneler breaking or is damaged during the placement procedure of the catheter.  -- Status: Terminated; May 31, 2019: Class II recall for Devices (Recall Number: Z-2391-2019) GlidePath Long-Term Hemodialysis Catheter with Preloaded stylet, REF/Product code:5397230, 14.5F, straight, 23cm length, BARD, UDI: 00801741012303 - The action is being initiated due to complaints received concerning  the molded tip of the tunneler breaking or is damaged during the placement procedure of the catheter.  -- Status: Terminated; May 31, 2019: Class II recall for Devices (Recall Number: Z-2376-2019) EQUISTREAM XK Alphacurve Long-Term Hemodialysis Catheter REF/Product code:5915240, 16F, 24cm length, BARD, UDI: 00801741013904 - The action is being initiated due to complaints received concerning  the molded tip of the tunneler breaking or is damaged during the placement procedure of the catheter.  -- Status: Terminated; May 2, 2019: Class II recall for Devices (Recall Number: Z-2212-2019) EnCor Breast Biopsy Probes, packaged individually in sterile pouches, 5 pouches/carton, single use, Rx, catalog/REF numbers 12GV Upright (Vertical) - REF ECP0112GV. Product Usage: Indicated for use in acquiring tissue for diagnosing breast abnormalities. - There has been an increase in complaints related to leaks, suction issues, and failure to obtain samples while using the product. -- Status: Terminated; May 31, 2019: Class II recall for Devices (Recall Number: Z-2380-2019) EQUISTREAM XK  Long-Term Hemodialysis Catheter with Preloaded Stylet, REF/Product code:5913350, 16F, Straight, 35cm length, BARD, UDI: 00801741013874 - The action is being initiated due to complaints received concerning  the molded tip of the tunneler breaking or is damaged during the placement procedure of the catheter.  -- Status: Terminated; May 31, 2019: Class II recall for Devices (Recall Number: Z-2393-2019) GlidePath Long-Term Hemodialysis Catheter with Preloaded stylet, REF/Product code:5397310, 14.5F, straight, 31cm length, BARD, UDI: 00801741012327 - The action is being initiated due to complaints received concerning  the molded tip of the tunneler breaking or is damaged during the placement procedure of the catheter.  -- Status: Terminated; May 31, 2019: Class II recall for Devices (Recall Number: Z-2389-2019) GlidePath Long-Term Hemodialysis Catheter, REF/Product code:5396280, 14.5F, Alphacurve, 28cm length, BARD, UDI: 00801741012266 - The action is being initiated due to complaints received concerning  the molded tip of the tunneler breaking or is damaged during the placement procedure of the catheter.  -- Status: Terminated; May 2, 2019: Class II recall for Devices (Recall Number: Z-2210-2019) EnCor Breast Biopsy Probes, packaged individually in sterile pouches, 5 pouches/carton, single use, Rx, catalog/REF numbers 10GV Upright (Vertical) - REF ECP0110GV. Product Usage: Indicated for use in acquiring tissue for diagnosing breast abnormalities. - There has been an increase in complaints related to leaks, suction issues, and failure to obtain samples while using the product. -- Status: Terminated; May 31, 2019: Class II recall for Devices (Recall Number: Z-2368-2019) EQUISTREAM LONG-TERM HEMODIALYSIS CATHETER, REF/Product Code:5905190, 14.5 Fr. Alphacurve Catheter with Standard Kit, 19 cm length, BARD, UDI#  00801741013799&#13;\n - The action is being initiated due to complaints received concerning  the molded tip of the tunneler breaking or is damaged during the placement procedure of the catheter.  -- Status: Terminated; May 31, 2019: Class II recall for Devices (Recall Number: Z-2369-2019) EQUISTREAM LONG-TERM HEMODIALYSIS CATHETER, REF/Product code:5905240, 14.5 Fr. Alphacurve Catheter with Standard Kit, 24cm length,  BARD, UDI#  00801741013805&#13;\n - The action is being initiated due to complaints received concerning  the molded tip of the tunneler breaking or is damaged during the placement procedure of the catheter.  -- Status: Terminated; May 2, 2019: Class II recall for Devices (Recall Number: Z-2214-2019) EnCor Breast Biopsy Probes, packaged individually in sterile pouches, 5 pouches/carton, single use, Rx, catalog/REF number 7GV Upright (Vertical) - REF ECP017GV. Product Usage: Indicated for use in acquiring tissue for diagnosing breast abnormalities.  - There has been an increase in complaints related to leaks, suction issues, and failure to obtain samples while using the product. -- Status: Terminated; May 31, 2019: Class II recall for Devices (Recall Number: Z-2394-2019) GlidePath Long-Term Hemodialysis Catheter with Pre",
+      "formatCode": "General"
+    },
+    {
+      "value": "",
+      "formatCode": "General"
+    },
+    {
+      "value": "",
+      "formatCode": "General"
+    },
+    {
+      "value": "",
+      "formatCode": "General"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+    "UserName": "FancyFood",
+    "UserPassword": "FDANYC",
+    "supplierName": "Bornstein Seafoods, Inc.",
+    "reqDocCount":"2",
+    "reqDocName":"FSVP component-Evaluation of foreign supplier for approval",
+    "multipleDocReqName":{
+        "reqDocName1":"FSVP component-Evaluation of foreign supplier for approval",
+        "reqDocName2":"FSVP component- Hazard Analysis of the food"
+    },    
+    "reDocSuplierName":"Manjilas Food Tech Pvt, Ltd.",
+    "reqDocEmailAddr":"suvarna.ghule@encora.com"
+}

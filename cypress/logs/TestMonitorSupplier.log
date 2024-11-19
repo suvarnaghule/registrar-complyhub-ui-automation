@@ -1,0 +1,15 @@
+[2024-11-14T13:36:59.575Z] Monitor Suppliers Tab -> Search Supplier and verify it's Regiscore : Test execution started
+[2024-11-14T13:37:13.247Z] supplier found :  Gourmet Nutrition
+[2024-11-14T13:37:14.320Z] Facility is under pending accpetance or pending review or pending payment 
+[2024-11-14T13:37:14.491Z] Pending facility found. Retrying... Attempt 1/3
+[2024-11-14T13:37:24.267Z] supplier found :  Gourmet Nutrition
+[2024-11-14T13:37:25.672Z] Facility is under pending accpetance or pending review or pending payment 
+[2024-11-14T13:37:25.729Z] Pending facility found. Retrying... Attempt 2/3
+[2024-11-14T13:37:35.516Z] supplier found :  Gourmet Nutrition
+[2024-11-14T13:37:36.611Z] Facility is under pending accpetance or pending review or pending payment 
+[2024-11-14T13:37:36.678Z] Pending facility found. Retrying... Attempt 3/3
+[2024-11-14T13:37:46.460Z] supplier found :  Gourmet Nutrition
+[2024-11-14T13:37:47.869Z] Facility is under pending accpetance or pending review or pending payment 
+[2024-11-14T13:37:47.947Z] Max retry attempts reached. Stopping retries.
+[2024-11-14T13:37:48.013Z] [Monitor Suppliers Tab -> Search Supplier and verify it's Regiscore | Status: passed | Message: Test passed successfully.
+

@@ -1,0 +1,20 @@
+{   
+    "updatedDocInput":{
+    "Type":"GMP Program",
+    "Name":"Importer Add Document update",
+    "Desc":"This is to test update document flow for Importer",
+    "Cat":"FSVP",
+    "ProductCategory":"AVOCADO, DRIED OR PASTE",
+    "ProductCatNumber":"7777",
+    "Product":"Dry Fruits",
+    "Vi":3,
+    "Vp":{
+            "docVpText":"Year",
+            "docVpValue":"Year"
+    },
+    "Vf":"12/12/2023",
+    "Vt":"01/01/2024",
+    "SupplierName":"DLC Laboratories, Inc - Paramount",
+    "Comments":"UI automation update test comments"
+    }
+}

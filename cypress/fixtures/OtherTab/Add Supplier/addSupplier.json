@@ -1,0 +1,13 @@
+{
+    "UserName":"FancyFood",
+    "UserPassword":"FDANYC",
+    "SupplierDetails" : 
+    { 
+        "Name":"Automation Supplier Test",   
+        "Address1":"Revolution Mall",
+        "Address2":"Paschimanagri",
+        "City":"Kothrud",
+        "CountryText":"India",
+        "CountryValue":"IN"
+    }   
+}

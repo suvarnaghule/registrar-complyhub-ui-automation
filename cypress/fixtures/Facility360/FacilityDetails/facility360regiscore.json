@@ -1,0 +1,20 @@
+{
+
+    "UserName": "FancyFood",
+    "UserPassword": "FDANYC",
+    "facilityDDText": "Avanti Frozen Foods Private Limited - East Godavari",
+    "facilityDDValue":"1405496",
+    "facilityRegiScorePercentage":"99",
+    "facilityRegiScoreStatus":"Low Risk",
+    "facilityRegiShipmentLast5Years":"1964",
+    "facilityRegiLastShipment":"06/20/2022",
+    "facilityRegiCleared":"99%",
+    "facilityRegiImportAlert":"8",
+    "facilityRegiRefusedAndDetained":"1%",
+    "facilityRegiWarnings":"--",
+    "facilityRegiSeeDetails" : "SEE DETAILS"
+
+
+
+
+}

@@ -1,6 +1,6 @@
 # _Cypress Automation Framework_
 
-Welcome to the Cypress Automation Framework repository! This framework is designed to simplify and streamline your UI, API, and performance testing using Cypress, a powerful end-to-end testing framework.
+Welcome to the Cypress Automation Framework repository! This framework is designed to simplify and streamline your UI and API testing using Cypress, a powerful end-to-end testing framework.
 
 ## Installation and Setup
 
@@ -29,7 +29,6 @@ This framework is designed to support various testing types:
 
 - API Testing: API tests are located in the e2e/apiTest folder. These tests utilize the apiconfig.json file for endpoint configuration and the apiUtils.js utility functions for common API interactions.
 
-- Performance Testing: This framework can be extended to include performance testing using Cypress performance plugins or custom scripts.For now we are capturing the time taken to perform actions on WEB UI.
 
 ### Folder Structure
 - apiconfig.json: Contains the base URL and API endpoints for API testing.

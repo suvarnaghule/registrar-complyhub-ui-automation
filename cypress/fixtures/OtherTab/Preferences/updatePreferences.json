@@ -1,0 +1,11 @@
+{
+"updateEmailFreqData" :{
+        "MonthlyReport":"none",
+        "RegiScore":"month",
+        "Audits":"week",
+        "Compliance":"day",
+        "SupplierProfile":"custom",
+        "NewShipments":"month",
+        "Documents":"week"
+    }
+}    

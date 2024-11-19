@@ -1,0 +1,102 @@
+{
+    "RegiScoreFilterName":{
+    "filterName":"RegiScore",
+     "filterLabel":[
+        {          
+            "filterLabel": "High Risk"
+        },
+        {          
+            "filterLabel": "Medium Risk"
+        },
+        {
+            "filterLabel": "Low Risk"
+        }
+    ]
+    },  
+    "ListFilterName":"Lists",
+    "ListFilterValue":"FSVP Products",
+    "CountryFilterName":"Country",
+    "CountryFilterValue":"Mexico",
+    "ApprovalStatusFilterName": {
+    "filterName":"Approval Status",
+    "subFilterName":"Supplier Status",
+    "filterLabel":[
+        {          
+            "filterLabel": "Undecided"
+        },
+        {          
+            "filterLabel": "Unapproved"
+        },
+        {
+            "filterLabel": "Approved"
+        },
+        {
+            "filterLabel": "No Status"
+        }       
+    ]
+    },
+    "ComplianceFilterName":{
+        "filterName":"Compliance",
+        "inspFilterName":"Inspections",
+        "inspFilterLabel":[
+           {"filterLabel":"OAI"},{"filterLabel":"VAI"},{"filterLabel":"NAI"}
+        ],
+        "importAlfilterName":"Import Alerts",
+        "importAlfilterLabel":[{"filterLabel":"Red List"},{"filterLabel":"Green List"}],
+        "importReFilterName":"Import Refusals",
+        "warningLetterFilterName":"Warning Letter",
+        "recallFilterName":"Recalls",
+        "recallSubFilterName1":"Type",
+        "recallSubFilterLabel1" :[{"filterLabel":"Class I"},{"filterLabel":"Class II"},{"filterLabel":"Class III"}],
+        "recallSubFilterName2":"Status",
+        "recallSubFilterLabel2" :[{"filterLabel":"Ongoing"},{"filterLabel":"Completed"},{"filterLabel":"Terminated"}]        
+    },
+    "DunsFilterName":{
+    "filterName":"DUNS",
+    "filterNameText":"DUNS Number",
+     "filterLabel":[
+        {          
+            "filterLabel": "DUNS Missing"
+        },
+        {          
+            "filterLabel": "DUNS Assigned"
+        }
+    ]
+    }, 
+    "AuditsFilterName":{
+        "filterName":"Audits",
+        "FSSCFilterName":"FSSC 22000",
+        "FSSCFilterLabel":[
+            {"filterLabel":"Valid"},{"filterLabel":"Invalid"},{"filterLabel":"Not Audited"}], 
+        "BRCFilterName":"BRC",
+        "BRCFilterLabel":[
+            {"filterLabel":"Valid"},{"filterLabel":"Invalid"},{"filterLabel":"Not Audited"}],      
+        "SQFFilterName":"SQF",
+        "SQFfilterLabel":[         
+            {"filterLabel":"Valid"},{"filterLabel":"Excellent"},{"filterLabel":"Good"},{"filterLabel":"Complies"},{"filterLabel":"Invalid"},{"filterLabel":"Not Audited"}
+        ]
+    },     
+    "RegistrationFilterName":{ 
+        "filterName":"Registration",
+        "FoodRegFilterName":"Food",
+        "DrugRegFilterName":"Drug",
+        "MedicalFilterName":"Medical",
+        "subFilterLabel":[
+            {"filterLabel":"Valid"},{"filterLabel":"Invalid"},{"filterLabel":"Missing"}
+        ]
+    },
+    "SupplierFeedFilterName":{
+        "filterName":"Supplier Feed",
+        "manualFilterName":"Manual",
+        "automatedFilterName":"Automated",
+        "automatedFilterLabel":[
+           {"filterLabel":"FSVP"},{"filterLabel":"Non-FSVP"}
+        ],
+        "pendingFilterName":"Pending",
+        "pendingFilterLabel":"Review",
+        "pendingAcceptanceFilterName":"Acceptance",
+        "pendingAcceptanceFilterLabel":[{"filterLabel":"FSVP"},{"filterLabel":"Non-FSVP"}]
+    },    
+    "listItemName" :"Automation List",
+    "newListItemName":"New List name"  
+}

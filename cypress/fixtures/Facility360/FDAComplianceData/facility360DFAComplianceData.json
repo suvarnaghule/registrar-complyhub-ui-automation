@@ -1,0 +1,14 @@
+{
+    "UserName": "FancyFood",
+    "UserPassword": "FDANYC",
+    "facilityDDText": "Simsek Biscuits and Food Industry Co. - Karaman",
+    "facilityDDValue":"507542",
+    "FDACompliance":"FDA Compliance Data",
+    "Audit":"fas fa-info-circle blue",
+    "Inspection":"fas fa-info-circle blue",
+    "WarningLetter":"fas fa-check-circle green",
+    "ImportAlert":"fas fa-exclamation-circle red",
+    "ImportRefusal":"fas fa-exclamation-circle red",
+    "Recall":"fas fa-check-circle green"
+
+}
