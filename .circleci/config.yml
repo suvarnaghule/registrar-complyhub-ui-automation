@@ -13,8 +13,12 @@ jobs:
     steps:
       - checkout  # Checkout the code from your GitHub repo
       - run:
-          name: Install Dependencies
-          command: npm ci  # Run npm install
+          name: Install Dependencies                      # Run npm install
+          command: |
+              npm cache clean --force
+              rm -rf node_modules
+              rm package-lock.json
+              npm ci  
 
   run_tests:
     docker:
@@ -23,7 +27,7 @@ jobs:
       - checkout
       - run:
           name: Run Cypress Tests
-          command: npm run cy:run  # Run Cypress tests
+          command: npx cyress run  # Run Cypress tests
 
 workflows:
   version: 2
