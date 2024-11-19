@@ -1,5 +1,7 @@
 node_modules/
 cypress/videos/
 cypress/reports/
+cypress/logs
 cypress/screenshots/
 demo.cy.js
+scripts/
