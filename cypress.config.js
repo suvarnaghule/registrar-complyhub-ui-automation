@@ -13,9 +13,5 @@ module.exports = defineConfig({
       require('@cypress/grep/src/plugin')(config);
       return config;
     },
-  },
-  "env": {         
-      "UserName": "FancyFood",
-      "UserPassword": "FDANYC"     
   }
 });
