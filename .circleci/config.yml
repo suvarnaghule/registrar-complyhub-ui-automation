@@ -14,10 +14,7 @@ jobs:
       - checkout  # Checkout the code from your GitHub repo
       - run:
           name: Install Dependencies
-          command: |
-              rm -rf node_modules 
-              npm cache clean --force          
-              npm install --legacy-peer-deps    
+          command: npm install --force   
 
   run_tests:
     docker:
