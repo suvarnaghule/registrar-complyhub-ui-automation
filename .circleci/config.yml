@@ -3,39 +3,31 @@ version: 2.1
 executors:
   node-executor:
     docker:
-      - image: cypress/browsers:latest  # Use Cypress Docker image with Node.js and browsers
+      - image: cypress/browsers:latest # Cypress Docker image with Node.js and browsers
 
 jobs:
   build:
     executor: node-executor
     steps:
       - checkout  # Checkout the code from your GitHub repo
+
+      # Install dependencies
       - run:
           name: Install Dependencies
-          command: |
-            npm install --legacy-peer-deps  # Install dependencies
+          command: npm install --legacy-peer-deps
+
+      # Run Cypress tests
       - run:
           name: Run Cypress Tests
-          command: npx cypress run  # Run Cypress tests
+          command: npx cypress run
 
-  store_artifacts:  # Define store_artifacts job
-    docker:
-      - image: cypress/browsers:latest # Same image as the build job
-    steps:
-      - checkout
-      - run:
-          name: Save Test Results
-          command: cp -r /root/project/cypress/videos /tmp/artifacts
+      # Store Cypress test videos as artifacts
       - store_artifacts:
-          path: /tmp/artifacts
-          destination: cypress-artifacts
+          path: /root/project/cypress/videos  # Path where Cypress stores videos
+          destination: cypress-videos  # The name that will be shown in CircleCI's Artifacts tab
 
 workflows:
   version: 2
   test:
     jobs:
-      - build  # Run the build job first
-      - store_artifacts:  # Then run the store_artifacts job
-          requires:
-            - build  # Make sure store_artifacts runs after the build job
-
+      - build  # Run the build job, which includes running Cypress and storing artifacts
