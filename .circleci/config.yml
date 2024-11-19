@@ -14,7 +14,8 @@ jobs:
       - checkout  # Checkout the code from your GitHub repo
       - run:
           name: Install Dependencies
-          command: npm install --force   
+          command: npm install --force 
+          command: npm audit fix   
 
   run_tests:
     docker:
