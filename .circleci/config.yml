@@ -31,7 +31,7 @@ jobs:
           destination: cypress-screenshots 
 
       - store_artifacts:
-          path: /root/project/cypress/results  # Path where Cypress test results are stored
+          path: /root/project/cypress/results/index.html  # Path where Cypress test results are stored
           destination: cypress-test-results        
 
 workflows:
