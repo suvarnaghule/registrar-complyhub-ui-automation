@@ -19,7 +19,6 @@
     "@cypress/grep": "^4.0.1",
     "@shelex/cypress-allure-plugin": "^2.40.2",
     "allure-commandline": "^2.29.0",
-    "cypress": "^13.6.2",
-    "mocha-allure-reporter": "^1.4.0"
+    "cypress": "^13.6.2"
   }
 }
