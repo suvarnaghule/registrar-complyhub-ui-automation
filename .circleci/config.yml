@@ -3,13 +3,13 @@ version: 2.1
 executors:
   node-executor:
     docker:
-      - image: cypress/browsers:node18.12.1  # Docker image with Cypress pre-installed
+      - image: cypress/browsers:latest  # Docker image with Cypress pre-installed
     #working_directory: ~/circleci-test  # Working directory
 
 jobs:
   install_dependencies:
     docker:
-      - image: cypress/browsers:node18.12.1
+      - image: cypress/browsers:latest
     steps:
       - checkout  # Checkout the code from your GitHub repo
       - run:
@@ -18,7 +18,7 @@ jobs:
 
   run_tests:
     docker:
-      - image: cypress/browsers:node18.12.1
+      - image: cypress/browsers:latest
     steps:
       - checkout
       - run:
