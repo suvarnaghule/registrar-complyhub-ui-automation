@@ -1,39 +1,10 @@
 version: 2.1
-
-executors:
-  node-executor:
-    docker:
-      - image: cypress/browsers:latest  # Docker image with Cypress pre-installed
-    working_directory: ~/complyHub-Automation  # Working directory
-
-jobs:
-  install_dependencies:
-    docker:
-      - image: cypress/browsers:latest
-    steps:
-      - checkout  # Checkout the code from your GitHub repo
-      - run:
-          name: Install Dependencies                      # Run npm install
-          command: |
-              npm cache clean --force
-              rm -rf node_modules
-              rm package-lock.json
-              npm install  
-
-  run_tests:
-    docker:
-      - image: cypress/browsers:latest
-    steps:
-      - checkout
-      - run:
-          name: Run Cypress Tests
-          command: npx cypress run  # Run Cypress tests
-
+orbs:
+  cypress: cypress-io/cypress@3
 workflows:
-  version: 2
   test:
     jobs:
-      - install_dependencies
-      - run_tests:
-          requires:
-            - install_dependencies  # run tests only after dependencies are installed
+      - cypress/run:
+          install-browsers: true
+          start-command: 'npm run start'
+          cypress-command: 'npx cypress run --browser chrome'
