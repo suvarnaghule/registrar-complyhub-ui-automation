@@ -4,3 +4,4 @@ cypress/screenshots
 cypress/logs/
 allure-report/
 allure-results/
+cypress/results/
