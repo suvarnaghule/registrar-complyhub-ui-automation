@@ -1,0 +1,27 @@
+name: allureReporting
+on: 
+    pull_request:
+        branches: [ "testYml" ]
+jobs:
+  cypress-allure-reporting: 
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      # Install npm dependencies, cache them correctly
+      # and run all Cypress tests
+      - name: Cypress.io
+        uses: cypress-io/github-action@v6
+        with:
+            browser: chrome
+            install-command: npm ci 
+      - name: install allure
+        run: npm install -g allure-commandline --save-dev && npm i -D @shelex/cypress-allure-plugin
+      - name: generate report
+        run: npm run test
+      - name: upload report
+        uses: actions/upload-artifact@v2
+        with:
+              name: allure-report
+              path: /home/runner/work/registrar-complyhub-ui-automation/registrar-complyhub-ui-automation/allure-report       
+      
