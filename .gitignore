@@ -1,2 +1,6 @@
 node_modules/
 cypress/videos/
+cypress/screenshots
+cypress/logs/
+allure-report/
+allure-results/
