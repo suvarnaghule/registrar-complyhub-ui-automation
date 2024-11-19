@@ -9,9 +9,6 @@ module.exports = defineConfig({
   reporterOptions: {
     reportDir: "cypress/results", // Report directory based on environment variables
     overwrite: false,
-    html: false,
-    json: false,
-    xml: true,
     chart:true,
   },
   e2e: {
