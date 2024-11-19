@@ -30,7 +30,7 @@ jobs:
           path: /root/project/cypress/results/screenshots  
           destination: cypress-screenshots 
 
-      - store_test_results:
+      - store_artifacts:
           path: /root/project/cypress/results  # Path where Cypress test results are stored
           destination: cypress-test-results        
 
