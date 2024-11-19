@@ -4,7 +4,7 @@ executors:
   node-executor:
     docker:
       - image: cypress/browsers:latest  # Docker image with Cypress pre-installed
-    #working_directory: ~/circleci-test  # Working directory
+    working_directory: ~/complyHub-Automation  # Working directory
 
 jobs:
   install_dependencies:
