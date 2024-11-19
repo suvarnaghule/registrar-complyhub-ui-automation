@@ -1,0 +1,35 @@
+version: 2.1
+
+executors:
+  node-executor:
+    docker:
+      - image: cypress/browsers:node14.16.1-chrome91-ff89  # Docker image with Cypress pre-installed
+    working_directory: ~/circleci-test  # Working directory
+
+jobs:
+  install_dependencies:
+    docker:
+      - image: cypress/browsers:node14.16.1-chrome91-ff89
+    steps:
+      - checkout  # Checkout the code from your GitHub repo
+      - run:
+          name: Install Dependencies
+          command: npm install  # Run npm install
+
+  run_tests:
+    docker:
+      - image: cypress/browsers:node14.16.1-chrome91-ff89
+    steps:
+      - checkout
+      - run:
+          name: Run Cypress Tests
+          command: npm run test  # Run Cypress tests
+
+workflows:
+  version: 2
+  test:
+    jobs:
+      - install_dependencies
+      - run_tests:
+          requires:
+            - install_dependencies  # run tests only after dependencies are installed
