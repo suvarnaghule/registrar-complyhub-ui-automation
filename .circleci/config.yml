@@ -19,7 +19,7 @@ jobs:
       # Run Cypress tests
       - run:
           name: Run Cypress Tests
-          command: npx cypress run --reporter mochawesome --reporter-options reportDir=cypress/results,reportFilename=index.html
+          command: npx cypress run 
 
       # Store Cypress test videos as artifacts
       - store_artifacts:
