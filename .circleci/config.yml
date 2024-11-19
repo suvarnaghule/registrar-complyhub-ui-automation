@@ -25,9 +25,9 @@ jobs:
       - checkout
       - run:
           name: Save Test Results
-          command: mkdir -p /tmp/cypress-artifacts && cp -r cypress/videos /tmp/cypress-artifacts
+          command: cp -r /root/project/cypress/videos /tmp/artifacts
       - store_artifacts:
-          path: /tmp/cypress-artifacts
+          path: /tmp/artifacts
           destination: cypress-artifacts
 
 workflows:
