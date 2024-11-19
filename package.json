@@ -4,7 +4,7 @@
   "description": "Cypress Framework build for WebUI and API Testing",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run --spec cypress/e2e/MonitorSuppliers/TestMonitorSupplier.cy.js",
+    "test": "npx cypress run --spec cypress/e2e/MonitorSuppliers/TestMonitorSupplier.cy.js",
     "uitest": "cross-env REPORT_NAME=UIReport cypress run --spec 'cypress/e2e/uiTest.cy.js'",
     "apitest": "cross-env REPORT_NAME=APIReport cypress run --spec 'cypress/e2e/apiTest.cy.js'",
     "cypress-dashboard": "npx cypress run --record --key b005b4f8-df95-434c-b706-81a81c42f990",
