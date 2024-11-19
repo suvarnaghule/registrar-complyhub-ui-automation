@@ -10,6 +10,5 @@ workflows:
           cypress-command: 'npx cypress run --browser chrome'
       - store_artifacts:
           path: /home/circleci/project/cypress/videos
-          destination: artifact-file
       - store_artifacts:
           path: cypress/videos
