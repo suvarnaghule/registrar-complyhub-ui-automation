@@ -15,9 +15,9 @@ jobs:
       - run:
           name: Install Dependencies
           command: |
-          rm -rf node_modules 
-          npm cache clean --force          
-          npm install --legacy-peer-deps    
+              rm -rf node_modules 
+              npm cache clean --force          
+              npm install --legacy-peer-deps    
 
   run_tests:
     docker:
