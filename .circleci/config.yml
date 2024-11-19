@@ -26,6 +26,10 @@ jobs:
           path: /root/project/cypress/videos  # Path where Cypress stores videos
           destination: cypress-videos  # The name that will be shown in CircleCI's Artifacts tab
 
+      - store_artifacts:
+          path: /root/project/cypress/screenshots  
+          destination: cypress-screenshots    
+
 workflows:
   version: 2
   test:
