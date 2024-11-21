@@ -20,6 +20,8 @@
     "@shelex/cypress-allure-plugin": "^2.40.2",
     "allure-commandline": "^2.29.0",
     "cypress": "^13.6.2",
-    "cypress-mochawesome-reporter": "^3.8.2"
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "mochawesome-merge": "^4.3.0",
+    "mochawesome-report-generator": "^6.2.0"
   }
 }
