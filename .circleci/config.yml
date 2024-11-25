@@ -24,13 +24,10 @@ jobs:
               [ -d "allure-results" ] && rm -rf "allure-results"
               [ -d "allure-report" ] && rm -rf "allure-report"
               npm run testcases:tag
-      - run:
-          name: Generate Allure Report
-          command: |        
               npm run allure:report 
-          #    node ./scripts/zipScript.js
-          #    ls -l ./zipReport
-
+              node ./scripts/zipScript.js
+              ls -l ./zipReport
+      
       # Store Cypress test videos as artifacts
       - store_artifacts:
           path: /root/project/cypress/videos  # Path where Cypress stores videos
