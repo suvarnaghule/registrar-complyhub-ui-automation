@@ -26,6 +26,7 @@
 
 import Login from "../PageClass/CommonPages/Login";
 
+
 cy.on('uncaught:exception', (err, runnable) => {
     // Return false to prevent Cypress from failing the test
     return false;
@@ -40,14 +41,15 @@ Cypress.Commands.add('logger', (filename, message) => {
     cy.writeFile(logFilePath, `[${new Date().toISOString()}] ${message}\n`, { flag: 'a+' });
   });
 
-Cypress.Commands.add('loginMyFDA', () => {
-    cy.session([] ,() => {
+  Cypress.Commands.add('loginMyFDA', (username, password) => {
+    cy.session([username, password], () => {
         const loginObj = new Login()
         // cy.visit('/');
         cy.visit('https://monitor.dev.compliancemonitorapi.com')
-        loginObj.userLogin(Cypress.env('UserName'), Cypress.env('UserPassword'));
+        loginObj.userLogin(username, password);
         cy.wait(2000);
         loginObj.verifyLoginSuccess();
         cy.logger('application', "Validated success Login Msg-->Login Test");
     })                                                                                         // { cacheAcrossSpecs: true } 
 });
+

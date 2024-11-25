@@ -4,7 +4,7 @@ import importerUpdateDocument from "../../PageClass/ImporterDocuments/MyDocument
 import NewDocument from "../../PageClass/Facility360/Documents/MyDocuments/Facility360AddNewDocument";
 import importerMyDocuments from "../../PageClass/ImporterDocuments/MyDocuments/importerMyDocuments";
 
-after('Delete File',() =>{
+/*after('Delete File',() =>{
     const myDocObj = new importerMyDocuments()
     const newDocObj = new NewDocument()
     cy.fixture('./BulkUpload/bulkUpload').then((data) => {
@@ -16,7 +16,7 @@ after('Delete File',() =>{
             myDocObj.deleteDocument(docInput.Input.Name)     
         })      
     })    
-})
+}) */
 
 describe('Bulk Upload ( Document Implementation Screen', {
     viewportWidth: 1280,
@@ -26,11 +26,12 @@ describe('Bulk Upload ( Document Implementation Screen', {
     beforeEach(() => {
         cy.fixture('./BulkUpload/bulkUpload').then((data) => {
             docData = data
-            cy.loginMyFDA()
+            cy.loginMyFDA(data.UserName,data.UserPassword)
             cy.visit('/documents')
         })
     });
-    it('Navigate to Document Implementation Screen & Upload a Single File', {tags : '@smokeTag'},() => {
+    
+    it.only('Navigate to Document Implementation Screen & Upload a Single File', {tags : '@smokeTag'},() => {
         const bulkUploadObj = new BulkUpload()
         bulkUploadObj.clickOnBulkDocumentsUpload()
         bulkUploadObj.clickOnSkipToDocumentImpl()

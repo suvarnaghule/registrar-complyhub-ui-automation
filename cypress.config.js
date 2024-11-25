@@ -6,18 +6,18 @@ module.exports = defineConfig({
   defaultCommandTimeout: 30000,
   video:true,
   
-  /*reporter: 'junit',
+  reporter: 'junit',
   reporterOptions: {
     mochaFile: "cypress/results/report.xml",
     toConsole: true  
-  },  */  
+  },    
   e2e: {
     baseUrl:'https://monitor.dev.compliancemonitorapi.com',
     setupNodeEvents(on, config) {
       
       // implement node event listeners here'
      // require('cypress-mochawesome-reporter/plugin')(on);
-      allureWriter(on, config);
+    //  allureWriter(on, config);
    /* on('before:spec', (spec) => { 
       const resultDir = 'cypress/results';
       const fs = require('fs');

@@ -16,21 +16,13 @@ jobs:
           name: Install Dependencies
           command: |
               npm install --legacy-peer-deps
-              java -version || echo "Java is not installed"           
-              apt install openjdk-8-jdk
-              java -version
-                    
+                                 
       # Run Cypress tests
       - run:
           name: Run Cypress Tests
           command: |
-              [ -d "allure-results" ] && rm -rf "allure-results"
-              [ -d "allure-report" ] && rm -rf "allure-report"
-              npm run testcases:tag || true
-              npm run allure:report 
-              node ./scripts/zipScript.js
-              ls -l ./zipReport
-      
+              npx cypress run                                            
+               
       # Store Cypress test videos as artifacts
       - store_artifacts:
           path: /root/project/cypress/videos  # Path where Cypress stores videos
@@ -39,10 +31,6 @@ jobs:
       - store_artifacts:
           path: /root/project/cypress/screenshots  
           destination: cypress-screenshots 
-
-      - store_artifacts:
-          path: zipReport  
-          destination: zipped-report     
 
       - store_test_results:
           path: /root/project/cypress/results  # Path where Cypress test results are stored
