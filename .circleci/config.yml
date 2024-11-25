@@ -28,7 +28,8 @@ jobs:
           name: Generate Allure Report
           command: |        
               npm run allure:report 
-              node .\scripts\zipScript.js
+              node ./scripts/zipScript.js
+              ls -l ./zipReport
 
       # Store Cypress test videos as artifacts
       - store_artifacts:
