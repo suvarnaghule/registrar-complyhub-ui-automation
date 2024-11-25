@@ -24,6 +24,9 @@ jobs:
               [ -d "allure-results" ] && rm -rf "allure-results"
               [ -d "allure-report" ] && rm -rf "allure-report"
               npm run testcases:tag
+      - run:
+          name: Generate Allure Report
+          command: |        
               npm run allure:report 
               node .\scripts\zipScript.js
 
