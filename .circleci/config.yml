@@ -18,7 +18,7 @@ jobs:
               npm install --legacy-peer-deps
               java -version || echo "Java is not installed" 
               apt-get update -y
-              apt-get install -y openjdk-11-jdk
+              apt install default-jdk
                     
       # Run Cypress tests
       - run:
