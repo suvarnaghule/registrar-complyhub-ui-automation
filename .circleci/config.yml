@@ -16,9 +16,9 @@ jobs:
           name: Install Dependencies
           command: |
               npm install --legacy-peer-deps
-              java -version || echo "Java is not installed" 
-              apt-get update -y
+              java -version || echo "Java is not installed"           
               apt install default-jdk
+              java -version
                     
       # Run Cypress tests
       - run:
