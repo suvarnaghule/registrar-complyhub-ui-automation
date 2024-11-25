@@ -37,7 +37,7 @@ jobs:
           destination: cypress-screenshots 
 
       - store_artifacts:
-          path: /root/project/zipReport  
+          path: zipReport  
           destination: zipped-report     
 
       - store_test_results:
