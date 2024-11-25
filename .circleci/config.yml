@@ -22,11 +22,7 @@ jobs:
               mv jdk-11.0.10+9 /usr/lib/jvm/  
               export JAVA_HOME=/usr/lib/jvm/jdk-11.0.10+9
               export PATH=$JAVA_HOME/bin:$PATH
-
-            # Verify Java installation
-              java -version
-              echo "JAVA_HOME is set to: $JAVA_HOME"
-             
+                    
       # Run Cypress tests
       - run:
           name: Run Cypress Tests
