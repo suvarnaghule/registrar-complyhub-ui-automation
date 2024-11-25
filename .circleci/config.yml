@@ -15,20 +15,12 @@ jobs:
       - run:
           name: Install Dependencies
           command: |
-              npm install --legacy-peer-deps 
-
-          name: Install Java and Set JAVA_HOME
-          command: |
+              npm install --legacy-peer-deps
               sudo apt-get update
               sudo apt-get install -y openjdk-11-jdk
-
-            # Set JAVA_HOME environment variable
               export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
               export PATH=$JAVA_HOME/bin:$PATH
-
-            # Verify Java installation
-              java -version
-              echo "JAVA_HOME is set to: $JAVA_HOME"
+                          
       # Run Cypress tests
       - run:
           name: Run Cypress Tests
