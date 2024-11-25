@@ -3,7 +3,7 @@ version: 2.1
 executors:
   node-executor:
     docker:
-      - image: openjdk:11-jdk               # Cypress Docker image with Node.js and browsers
+      - image: cypress/browsers:latest               # Cypress Docker image with Node.js and browsers
 
 jobs:
   build:
@@ -19,7 +19,6 @@ jobs:
               java -version || echo "Java is not installed" 
               apt-get update -y
               apt-get install -y openjdk-11-jdk
-              java -version
                     
       # Run Cypress tests
       - run:
