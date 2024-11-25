@@ -14,12 +14,17 @@ jobs:
       # Install dependencies
       - run:
           name: Install Dependencies
-          command: npm install --legacy-peer-deps
+          command: |
+              npm install --legacy-peer-deps            
 
       # Run Cypress tests
       - run:
           name: Run Cypress Tests
-          command: npx cypress run 
+          command: |
+              npm run allure:clear
+              npm run testcases:tag
+              npm run allure:report 
+              node .\scripts\zipScript.js
 
       # Store Cypress test videos as artifacts
       - store_artifacts:
@@ -29,6 +34,10 @@ jobs:
       - store_artifacts:
           path: /root/project/cypress/screenshots  
           destination: cypress-screenshots 
+
+      - store_artifacts:
+          path: /root/project/zipReport  
+          destination: zipped-report     
 
       - store_test_results:
           path: /root/project/cypress/results  # Path where Cypress test results are stored

@@ -5,3 +5,4 @@ cypress/logs/
 allure-report/
 allure-results/
 cypress/results/
+zipReport/
