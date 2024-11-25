@@ -21,7 +21,8 @@ jobs:
       - run:
           name: Run Cypress Tests
           command: |
-              npm run allure:clear
+              [ -d "allure-results" ] && rm -rf "allure-results"
+              [ -d "allure-report" ] && rm -rf "allure-report"
               npm run testcases:tag
               npm run allure:report 
               node .\scripts\zipScript.js
