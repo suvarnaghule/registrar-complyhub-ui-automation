@@ -16,7 +16,7 @@ jobs:
           name: Install Dependencies
           command: |
               npm install --legacy-peer-deps
-                                     
+                                    
       # Run Cypress tests
       - run:
           name: Run Cypress Tests
