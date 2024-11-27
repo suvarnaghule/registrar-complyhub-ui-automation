@@ -12,7 +12,6 @@ module.exports = defineConfig({
     reportDir: `${reportDir}/${reportName}`, // Report directory based on environment variables
     overwrite: false, // Set to true to overwrite reports on each run
     code: false,
-    quiet: true,
     chart:true,
   },
   e2e: {
