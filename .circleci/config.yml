@@ -45,7 +45,7 @@ jobs:
           path: ./artifacts/index.html  
           destination: ./index.html   
       - store_artifacts:
-          path: cypress/reports/mochawesome-report/*.zip  
+          path: cypress/reports/mochawesome-report/report.zip  
           destination: TestReport        
 workflows:
   version: 2
