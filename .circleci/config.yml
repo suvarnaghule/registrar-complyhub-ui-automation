@@ -12,15 +12,41 @@ jobs:
       - run:
           name: Install Java
           command: |
-            apt-get update && apt-get install -y openjdk-11-jdk  # Install Java in the main container
+              apt-get update && apt-get install -y openjdk-11-jdk  # Install Java in the main container
 
       - run:
           name: Check Java Version
           command: |
-            java -version  # Verifies if Java is installed
+              java -version  # Verifies if Java is installed
+
+      # Step 2: Run your Cypress tests or other commands
+      - run:
+          name: Run Cypress Tests
+          command: |
+              npm install  # Install dependencies if needed
+              npm run testcases:tag
+
+      # Step 3: Install Allure if it's not installed (for generating reports)
+      - run:
+          name: Install Allure
+          command: |
+              npm install -g allure-commandline --save-dev  # Install Allure command line
+
+      # Step 4: Generate Allure Report
+      - run:
+          name: Generate Allure Report
+          command: |
+              allure generate allure-results --clean -o allure-report && allure open allure-report
+
+      # Additional commands to zip reports, etc.
+      - run:
+          name: Zip Allure Report
+          command: |
+              node ./scripts/zipScript.js
+              ls -l ./zipReport  # Verify report files
 
 workflows:
   version: 2
-  build:
+  test:
     jobs:
-     
+      - build  
