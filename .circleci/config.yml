@@ -1,12 +1,15 @@
 version: 2.1
-
-jobs:
-  build:
+executors:
+  # Define a custom executor that includes the Cypress image and the OpenJDK service container
+  cypress-java-executor:
     docker:
       - image: cypress/browsers:latest  # Primary container with Cypress and browsers
     services:
       - image: openjdk:11-jdk  # Service container with OpenJDK 11
-        name: java  # Name the service container to refer to it in the steps
+        name: java 
+jobs:
+  build:
+    executor: cypress-java-executor
     steps:
       - checkout  # Checkout the repository code
 
