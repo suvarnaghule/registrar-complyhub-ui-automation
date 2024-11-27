@@ -42,7 +42,7 @@ jobs:
           destination: assets  
       - store_artifacts:
           path: ./artifacts/index.html  # Store videos as artifacts
-          destination: ./artifacts  # The artifact folder name in the CircleCI UI    
+          destination: ./index.html  # The artifact folder name in the CircleCI UI    
 workflows:
   version: 2
   report:
