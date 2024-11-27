@@ -18,10 +18,13 @@ jobs:
       - run:
           name: Move Videos and Screenshots to Separate Directories
           command: |
-            mkdir -p ./artifacts/videos                         
-            mkdir -p ./artifacts/screenshots                    
-            mv cypress/reports/mochawesome-report/TestReport/videos/* ./artifacts/videos/  
-            mv cypress/reports/mochawesome-report/TestReport/screenshots/* ./artifacts/screenshots/  
+              mkdir -p ./artifacts/videos                         
+              mkdir -p ./artifacts/screenshots 
+              mkdir -p ./artifacts/assets                    
+              mv cypress/reports/mochawesome-report/TestReport/videos/* ./artifacts/videos/  
+              mv cypress/reports/mochawesome-report/TestReport/screenshots/* ./artifacts/screenshots/
+              mv cypress/reports/mochawesome-report/TestReport/assets/* ./artifacts/assets/
+              mv cypress/reports/mochawesome-report/TestReport/index.html ./artifacts/
       # Additional commands to zip reports, etc.
       - run:
           name: Zip  Report
@@ -34,7 +37,12 @@ jobs:
       - store_artifacts:
           path: ./artifacts/screenshots  # Store screenshots as artifacts
           destination: screenshots  # The artifact folder name in the CircleCI UI
-
+      - store_artifacts:
+          path: ./artifacts/assets  
+          destination: assets  
+      - store_artifacts:
+          path: ./artifacts/index.html  # Store videos as artifacts
+          destination: ./  # The artifact folder name in the CircleCI UI    
 workflows:
   version: 2
   report:
