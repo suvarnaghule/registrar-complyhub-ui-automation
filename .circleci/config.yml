@@ -14,36 +14,13 @@ jobs:
           name: Run Cypress Tests
           command: |
               npm install --legacy-peer-deps  # Install dependencies if needed           
-              npx cypress run || true
-      - run:
-          name: Move Videos and Screenshots to Separate Directories
-          command: |
-              mkdir -p ./artifacts/videos                         
-              mkdir -p ./artifacts/screenshots 
-              mkdir -p ./artifacts/assets 
-              mkdir -p ./artifacts/report                   
-              mv cypress/reports/mochawesome-report/TestReport/videos/* ./artifacts/videos/  
-              mv cypress/reports/mochawesome-report/TestReport/screenshots/* ./artifacts/screenshots/
-              mv cypress/reports/mochawesome-report/TestReport/assets/* ./artifacts/assets/
-              mv cypress/reports/mochawesome-report/TestReport/index.html ./artifacts/
+              npx cypress run || true     
       # Additional commands to zip reports, etc.
       - run:
           name: Zip  Report
           command: |
               node ./scripts/zipScript.js
               ls -l cypress/reports/mochawesome-report      
-      - store_artifacts:
-          path: ./artifacts/videos  # Store videos as artifacts
-          destination: videos  # The artifact folder name in the CircleCI UI
-      - store_artifacts:
-          path: ./artifacts/screenshots  # Store screenshots as artifacts
-          destination: screenshots  # The artifact folder name in the CircleCI UI
-      - store_artifacts:
-          path: ./artifacts/assets  
-          destination: assets  
-      - store_artifacts:
-          path: ./artifacts/index.html  
-          destination: ./index.html   
       - store_artifacts:
           path: cypress/reports/mochawesome-report/report.zip  
           destination: TestReport        
