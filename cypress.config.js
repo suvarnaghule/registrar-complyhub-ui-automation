@@ -1,4 +1,6 @@
 const { defineConfig } = require("cypress");
+const reportDir = process.env.REPORT_DIR || 'cypress/reports/mochawesome-report';
+const reportName = process.env.REPORT_NAME || 'TestReport';
 const allureWriter = require('@shelex/cypress-allure-plugin/writer');
 
 module.exports = defineConfig({
@@ -6,17 +8,18 @@ module.exports = defineConfig({
   defaultCommandTimeout: 30000,
   video:true,
   
-  reporter: 'junit',
+  reporter: 'cypress-mochawesome-reporter',
   reporterOptions: {
-    mochaFile: "cypress/results/report.xml",
-    toConsole: true  
-  },    
+    reportDir: `${reportDir}/${reportName}`, // Report directory based on environment variables
+    overwrite: false, // Set to true to overwrite reports on each run
+    chart:true,
+  },
   e2e: {
     baseUrl:'https://monitor.dev.compliancemonitorapi.com',
     setupNodeEvents(on, config) {
       
       // implement node event listeners here'
-     // require('cypress-mochawesome-reporter/plugin')(on);
+      require('cypress-mochawesome-reporter/plugin')(on);
     //  allureWriter(on, config);
    /* on('before:spec', (spec) => { 
       const resultDir = 'cypress/results';
