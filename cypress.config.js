@@ -6,8 +6,7 @@ const allureWriter = require('@shelex/cypress-allure-plugin/writer');
 module.exports = defineConfig({
   chromeWebSecurity: false,
   defaultCommandTimeout: 30000,
-  video:false,
-  screenshotsFolder: false,
+  video:true,
   reporter: 'cypress-mochawesome-reporter',
   reporterOptions: {
     reportDir: `${reportDir}/${reportName}`, // Report directory based on environment variables
