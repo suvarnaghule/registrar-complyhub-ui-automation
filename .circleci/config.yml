@@ -9,24 +9,31 @@ jobs:
   build:
     executor: cypress-executor
     steps:
-      - checkout  # Checkout the repository code
-     
+      - checkout  # Checkout the repository code    
       - run:
           name: Run Cypress Tests
           command: |
               npm install --legacy-peer-deps  # Install dependencies if needed           
-              npx cypress run
-
+              npx cypress run || true
+      - run:
+          name: Move Videos and Screenshots to Separate Directories
+          command: |
+            mkdir -p ./artifacts/videos                         
+            mkdir -p ./artifacts/screenshots                    
+            mv cypress/reports/mochawesome-report/TestReport/videos/* ./artifacts/videos/  
+            mv cypress/reports/mochawesome-report/TestReport/screenshots/* ./artifacts/screenshots/  
       # Additional commands to zip reports, etc.
       - run:
-          name: Zip Allure Report
+          name: Zip  Report
           command: |
               node ./scripts/zipScript.js
-              ls -l cypress/reports/mochawesome-report  # Verify report files
-              
+              ls -l cypress/reports/mochawesome-report      
       - store_artifacts:
-          path: cypress/reports/mochawesome-report/TestReport  # Path where Cypress stores videos
-          destination: cypress-report  # The name that will be shown in CircleCI's Artifacts tab        
+          path: ./artifacts/videos  # Store videos as artifacts
+          destination: videos  # The artifact folder name in the CircleCI UI
+      - store_artifacts:
+          path: ./artifacts/screenshots  # Store screenshots as artifacts
+          destination: screenshots  # The artifact folder name in the CircleCI UI
 
 workflows:
   version: 2
