@@ -8,45 +8,28 @@ executors:
 jobs:
   build:
     executor: cypress-executor
-    services:
-      - image: openjdk:11-jdk  # Service container with OpenJDK 11
-        name: java 
     steps:
       - checkout  # Checkout the repository code
-
-      # Step 1: Install dependencies and ensure Java is available (in the primary container)
-      - run:
-          name: Install Allure (in primary container)
-          command: |
-              npm install -g allure-commandline --save-dev  # Install Allure command line
-
-      - run:
-          name: Check Java Version (from service container)
-          command: |
-              docker exec java java -version  # Check Java version from the service container
-
-      # Step 2: Run Cypress Tests in the primary container
+     
       - run:
           name: Run Cypress Tests
           command: |
-              npm install --legacy-peer-deps  # Install dependencies if needed
-              npm run testcases:tag
-
-      # Step 3: Generate Allure Report using Java (from the service container)
-      - run:
-          name: Generate Allure Report
-          command: |
-              docker exec java allure generate allure-results --clean -o allure-report && allure open allure-report
+              npm install --legacy-peer-deps  # Install dependencies if needed           
+              npx cypress run
 
       # Additional commands to zip reports, etc.
       - run:
           name: Zip Allure Report
           command: |
               node ./scripts/zipScript.js
-              ls -l ./zipReport  # Verify report files
+              ls -l cypress/reports/mochawesome-report  # Verify report files
+              
+      - store_artifacts:
+          path: cypress/reports/mochawesome-report/TestReport  # Path where Cypress stores videos
+          destination: cypress-report  # The name that will be shown in CircleCI's Artifacts tab        
 
 workflows:
   version: 2
-  allureReport:
+  report:
     jobs:
       - build
