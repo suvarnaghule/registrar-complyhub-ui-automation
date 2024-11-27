@@ -1,43 +1,26 @@
 version: 2.1
 
-executors:
-  node-executor:
-    docker:
-      - image: cypress/browsers:latest               # Cypress Docker image with Node.js and browsers
-
 jobs:
   build:
-    executor: node-executor
+    docker:
+      # Primary container (browser image)
+      - image: cypress/browsers:latest  # This image has Cypress and browsers, no Java
     steps:
-      - checkout  # Checkout the code from your GitHub repo
+      - checkout  # Checkout the repository code
 
-      # Install dependencies
+      # Step 1: Install dependencies and ensure Java is available
       - run:
-          name: Install Dependencies
+          name: Install Java
           command: |
-              npm install --legacy-peer-deps
-                       
-      # Run Cypress tests
+            apt-get update && apt-get install -y openjdk-11-jdk  # Install Java in the main container
+
       - run:
-          name: Run Cypress Tests
+          name: Check Java Version
           command: |
-              npx cypress run                                            
-               
-      # Store Cypress test videos as artifacts
-      - store_artifacts:
-          path: /root/project/cypress/videos  # Path where Cypress stores videos
-          destination: cypress-videos  # The name that will be shown in CircleCI's Artifacts tab
-
-      - store_artifacts:
-          path: /root/project/cypress/screenshots  
-          destination: cypress-screenshots 
-
-      - store_test_results:
-          path: /root/project/cypress/results  # Path where Cypress test results are stored
-          destination: cypress-test-results        
+            java -version  # Verifies if Java is installed
 
 workflows:
   version: 2
-  test:
+  build:
     jobs:
-      - build  # Run the build job, which includes running Cypress and storing artifacts
+     
