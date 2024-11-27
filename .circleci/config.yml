@@ -3,40 +3,36 @@ version: 2.1
 jobs:
   build:
     docker:
-      # Primary container (browser image)
-      - image: cypress/browsers:latest  # This image has Cypress and browsers, no Java
+      - image: cypress/browsers:latest  # Primary container with Cypress and browsers
+    services:
+      - image: openjdk:11-jdk  # Service container with OpenJDK 11
+        name: java  # Name the service container to refer to it in the steps
     steps:
       - checkout  # Checkout the repository code
 
-      # Step 1: Install dependencies and ensure Java is available
+      # Step 1: Install dependencies and ensure Java is available (in the primary container)
       - run:
-          name: Install Java
-          command: |
-              apt-get update && apt-get install -y openjdk-11-jdk  # Install Java in the main container
-
-      - run:
-          name: Check Java Version
-          command: |
-              java -version  # Verifies if Java is installed
-
-      # Step 2: Run your Cypress tests or other commands
-      - run:
-          name: Run Cypress Tests
-          command: |
-              npm install  # Install dependencies if needed
-              npm run testcases:tag
-
-      # Step 3: Install Allure if it's not installed (for generating reports)
-      - run:
-          name: Install Allure
+          name: Install Allure (in primary container)
           command: |
               npm install -g allure-commandline --save-dev  # Install Allure command line
 
-      # Step 4: Generate Allure Report
+      - run:
+          name: Check Java Version (from service container)
+          command: |
+              docker exec java java -version  # Check Java version from the service container
+
+      # Step 2: Run Cypress Tests in the primary container
+      - run:
+          name: Run Cypress Tests
+          command: |
+              npm install --legacy-peer-deps  # Install dependencies if needed
+              npm run testcases:tag
+
+      # Step 3: Generate Allure Report using Java (from the service container)
       - run:
           name: Generate Allure Report
           command: |
-              allure generate allure-results --clean -o allure-report && allure open allure-report
+              docker exec java allure generate allure-results --clean -o allure-report && allure open allure-report
 
       # Additional commands to zip reports, etc.
       - run:
@@ -47,6 +43,6 @@ jobs:
 
 workflows:
   version: 2
-  test:
+  allureReport:
     jobs:
-      - build  
+      - build
