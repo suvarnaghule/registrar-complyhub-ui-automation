@@ -1,22 +1,29 @@
 version: '2.1'
 orbs:
   cypress: cypress-io/cypress@3.1.4
+    
+jobs:
+    cypress-run:
+      docker:
+        - image: cypress/browsers:latest  # Docker image with Cypress and browsers
+      steps:
+        - checkout  # Check out the code from the repo
+        - cypress/install  # Install Cypress dependencies
+        - cypress/run:
+            cypress-command: "npx cypress run"  # Run Cypress tests
+            install-browsers: true  # Ensure browsers are installed for Cypress
+    zip-report:
+      docker:
+          - image: node:16  # Use Node.js Docker image to run the zip script
+      steps:      
+          - run:
+              name: Zip Report
+              command: |
+                  node ./scripts/zipScript.js  # Run the custom script to zip reports
+                  ls -l cypress/reports/mochawesome-report 
 workflows:
+  version: 2
   use-my-orb:
     jobs:
-      - cypress/run:
-          cypress-command: npx cypress run  
-          install-browsers: true
-          post-steps:
-              - run: node ./scripts/zipScript.js
-              - store_artifacts:
-                  path: cypress/reports/mochawesome-report/report.zip     
-      zip-report:
-        docker:
-            - image: node:16  # Use Node.js Docker image to run the zip script
-        steps:      
-            - run:
-                name: Zip Report
-                command: |
-                   node ./scripts/zipScript.js  # Run the custom script to zip reports
-                   ls -l cypress/reports/mochawesome-report            
+      - cypress-run
+      - zip-report                             
