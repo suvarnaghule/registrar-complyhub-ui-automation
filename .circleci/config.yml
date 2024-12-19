@@ -10,11 +10,4 @@ workflows:
             cypress-command: npx cypress run  
             install-browsers: true
         
-        - run:
-            command: |
-              node ./scripts/zipScript.js
-              ls -l cypress/reports/mochawesome-report 
-          post-steps:
-              - run: ls 
-              - store_artifacts: 
-                  path: cypress/reports/mochawesome-report/report.zip   
+         
