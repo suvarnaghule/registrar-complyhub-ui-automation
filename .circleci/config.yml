@@ -11,3 +11,12 @@ workflows:
               - run: node ./scripts/zipScript.js
               - store_artifacts:
                   path: cypress/reports/mochawesome-report/report.zip     
+      zip-report:
+        docker:
+            - image: node:16  # Use Node.js Docker image to run the zip script
+        steps:      
+            - run:
+                name: Zip Report
+                command: |
+                   node ./scripts/zipScript.js  # Run the custom script to zip reports
+                   ls -l cypress/reports/mochawesome-report            
