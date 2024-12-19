@@ -4,7 +4,6 @@ orbs:
     
 jobs:
     cypress-run:
-      executor: cypress/default  # Docker image with Cypress and browsers
       steps:
         - checkout  # Check out the code from the repo
         - cypress/install  # Install Cypress dependencies
