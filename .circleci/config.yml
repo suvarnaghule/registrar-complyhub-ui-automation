@@ -18,12 +18,6 @@ jobs:
           command: |
             node ./scripts/zipScript.js  # Run a custom Node script
             ls -l cypress/reports/mochawesome-report  # Verify the zipped report exists
-
-  store-artifacts:
-    docker:
-      - image: cypress/browsers:latest
-    steps:
-      - checkout
       - store_artifacts:
           path: cypress/reports/mochawesome-report/report.zip  # Path to the zipped report
           destination: TestReport  # Destination for the report
@@ -33,6 +27,4 @@ workflows:
   use-my-orb:
     jobs:
       - cypress-run
-      - store-artifacts:
-          requires:
-            - cypress-run
+      
