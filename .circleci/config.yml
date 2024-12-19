@@ -1,50 +1,13 @@
 version: '2.1'
-
 orbs:
   cypress: cypress-io/cypress@3.1.4
-
-jobs:
-  # Define the Cypress job for running the tests
-  cypress-run:
-    docker:
-      - image: cypress/browsers:latest
-    steps:
-      - checkout
-      - cypress/install
+workflows:
+  use-my-orb:
+    jobs:
       - cypress/run:
           cypress-command: npx cypress run  
           install-browsers: true
+          post-steps:
+              - store_artifacts:
+                path: cypress/reports/mochawesome-report
 
-  # Define the "zip report" job for zipping the reports
-  zip-report:
-    docker:
-      - image: node:16
-    steps:
-      - checkout
-      - run:
-          name: Zip Report
-          command: |
-            node ./scripts/zipScript.js
-            ls -l cypress/reports/mochawesome-report
-          
-  # Define the "store artifacts" job for storing test reports as artifacts
-  store-artifacts:
-    docker:
-      - image: cypress/browsers:latest
-    steps:
-      - checkout
-      - store_artifacts:
-          path: cypress/reports/mochawesome-report/report.zip
-          destination: TestReport
-
-workflows:
-  version: 2
-  use-my-orb:
-    jobs:
-      - cypress-run
-      - zip-report:
-          requires:
-            - cypress-run
-      - store-artifacts:
-          requires:
-            - zip-report
