@@ -12,3 +12,4 @@ workflows:
           post-steps:
             - store_artifacts:
                 path: cypress/reports/mochawesome-report/report.zip 
+                destination: TestReport
