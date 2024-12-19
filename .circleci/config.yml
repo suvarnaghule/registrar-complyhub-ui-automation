@@ -3,12 +3,8 @@ orbs:
   cypress: cypress-io/cypress@3.1.4
     
 jobs:
-    cypress-run:
-      steps:
-        - checkout  # Check out the code from the repo
-        - cypress/install  # Install Cypress dependencies
-        - cypress/run:
-            cypress-command: npx cypress run  # Run Cypress tests
+  - cypress/run:
+       cypress-command: npx cypress run  # Run Cypress tests
              
 workflows:
   version: 2
