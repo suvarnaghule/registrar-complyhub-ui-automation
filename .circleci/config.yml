@@ -4,13 +4,12 @@ orbs:
     
 jobs:
     cypress-run:
-      docker:
-        - image: cypress/browsers:latest  # Docker image with Cypress and browsers
+      executor: cypress/default  # Docker image with Cypress and browsers
       steps:
         - checkout  # Check out the code from the repo
         - cypress/install  # Install Cypress dependencies
         - cypress/run:
-            cypress-command: "npx cypress run"  # Run Cypress tests
+            cypress-command: npx cypress run  # Run Cypress tests
             install-browsers: true  # Ensure browsers are installed for Cypress
     zip-report:
       docker:
