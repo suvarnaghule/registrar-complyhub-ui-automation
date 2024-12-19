@@ -4,11 +4,12 @@ orbs:
     
 workflows:
   use-my-orb:
-    jobs:  
-        - cypress/run:
-            cypress-command: npx cypress run  
-            install-browsers: true
-        - run:
-            command: node ./scripts/zipScript.js 
-        - store_artifacts:
-            path: cypress/reports/mochawesome-report/report.zip    
+    jobs:
+      run-tests:
+        steps:
+          - cypress/run-tests:
+              cypress-command: npx cypress run  
+              install-browsers: true
+          - run: node ./scripts/zipScript.js        
+          - store_artifacts:
+              path: cypress/reports/mochawesome-report/report.zip    
