@@ -2,14 +2,17 @@ version: '2.1'
 orbs:
   cypress: cypress-io/cypress@3.1.4
     
-jobs:
-  cypress-run
-    - cypress/run:
-       cypress-command: npx cypress run  # Run Cypress tests
-             
 workflows:
-  version: 2
   use-my-orb:
     jobs:
-      - cypress-run
-                                
+      - cypress/run:
+          cypress-command: npx cypress run  
+          install-browsers: true
+          post-steps:
+              - run: ls
+              - store_artifacts:
+                  path: cypress/videos
+              - store_artifacts:
+                  path: cypress/screenshots  
+              - store_artifacts: 
+                  path: cypress/reports/mochawesome-report   
