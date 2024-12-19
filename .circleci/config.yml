@@ -7,7 +7,4 @@ workflows:
       - cypress/run:
           cypress-command: npx cypress run  
           install-browsers: true
-          post-steps:
-              - store_artifacts:
-                path: cypress/reports/mochawesome-report
-
+          
