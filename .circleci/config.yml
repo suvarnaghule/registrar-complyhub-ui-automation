@@ -5,10 +5,11 @@ orbs:
 workflows:
   use-my-orb:
     jobs:
-      - cypress/run:
-          cypress-command: npx cypress run  
-          install-browsers: true
-      steps:    
+      steps:  
+        - cypress/run:
+            cypress-command: npx cypress run  
+            install-browsers: true
+        
         - run:
             command: |
               node ./scripts/zipScript.js
