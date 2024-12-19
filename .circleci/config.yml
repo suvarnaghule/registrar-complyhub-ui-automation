@@ -12,7 +12,7 @@ jobs:
       - checkout
       - cypress/install
       - cypress/run:
-          cypress-command: "npx cypress run"  
+          cypress-command: npx cypress run  
           install-browsers: true
 
   # Define the "zip report" job for zipping the reports
