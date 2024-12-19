@@ -4,8 +4,7 @@ orbs:
     
 workflows:
   use-my-orb:
-    jobs:
-      steps:  
+    jobs:  
         - cypress/run:
             cypress-command: npx cypress run  
             install-browsers: true
