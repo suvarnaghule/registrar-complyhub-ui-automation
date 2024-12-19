@@ -14,7 +14,7 @@ jobs:
           name: Run Cypress Tests
           command: |
               npm install --legacy-peer-deps  # Install dependencies if needed           
-              npx cypress run --headed || true     
+              npx cypress run --headed --browser chrome || true     
       # Additional commands to zip reports, etc.
       - run:
           name: Zip  Report
