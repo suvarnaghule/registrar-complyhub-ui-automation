@@ -7,7 +7,7 @@ workflows:
       - cypress/run:
           cypress-command: npx cypress run  
           install-browsers: true
-          command: 'node ./scripts/zipScript.js'
+          cypress-command: node ./scripts/zipScript.js
           post-steps:
             - store_artifacts:
                 path: cypress/reports/mochawesome-report 
