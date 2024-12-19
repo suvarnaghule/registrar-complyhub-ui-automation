@@ -1,21 +1,13 @@
 version: '2.1'
-
 orbs:
   cypress: cypress-io/cypress@3.1.4
-
-jobs:
-  cypress-run:
-    docker:
-      - image: cypress/browsers:latest
-    steps:
-      - checkout  # Check out the code from the repo
-      - cypress/install  # Install Cypress dependencies
+workflows:
+  use-my-orb:
+    jobs:
       - cypress/run:
-          cypress-command: npx cypress run  # Custom test script
-          install-browsers: true  # Ensure necessary browsers are installed
+          cypress-command: npx cypress run  
+          install-browsers: true
           command: node ./scripts/zipScript.js
           post-steps:
             - store_artifacts:
-              path: cypress/reports/mochawesome-report  
-      
- 
+                path: cypress/reports/mochawesome-report 
