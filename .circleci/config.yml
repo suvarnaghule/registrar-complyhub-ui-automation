@@ -10,4 +10,4 @@ workflows:
           post-steps:
               - run: node ./scripts/zipScript.js
               - store_artifacts:
-                  path: cypress/reports/mochawesome-report    
+                  path: cypress/reports/mochawesome-report/report.zip     
