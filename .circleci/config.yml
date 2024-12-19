@@ -11,20 +11,10 @@ jobs:
       - checkout  # Check out the code from the repo
       - cypress/install  # Install Cypress dependencies
       - cypress/run:
-          cypress-command: "npx cypress run"  # Custom test script
+          cypress-command: npx cypress run && node ./scripts/zipScript.js # Custom test script
           install-browsers: true  # Ensure necessary browsers are installed
-      - run:
-          name: Run Custom Node Script to Zip Reports
-          command: |
-            node ./scripts/zipScript.js  # Run a custom Node script
-            ls -l cypress/reports/mochawesome-report  # Verify the zipped report exists
-      - store_artifacts:
-          path: cypress/reports/mochawesome-report/report.zip  # Path to the zipped report
-          destination: TestReport  # Destination for the report
-
-workflows:
-  version: 2
-  use-my-orb:
-    jobs:
-      - cypress-run
+          post-steps:
+            - store_artifacts:
+              path: cypress/reports/mochawesome-report  
       
+ 
